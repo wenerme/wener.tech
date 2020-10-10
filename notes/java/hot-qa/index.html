@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Docusaurus">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-30404720-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30404720-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-30404720-1")</script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-30404720-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30404720-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-30404720-1")</script>
+
+<title data-react-helmet="true">热门问题</title>
+
+<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Wener Live &amp; Life · Passion I&#x27;ve found"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="LinkedList vs ArrayList"><meta data-react-helmet="true" property="og:description" content="LinkedList vs ArrayList"><meta data-react-helmet="true" property="og:url" content="https://wener.me/notes/java/hot-qa">
+
+<link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico">
+
+
+<link rel="stylesheet" href="/styles.cb15e1ce.css">
+
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}function e(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}var n=window.matchMedia("(prefers-color-scheme: dark)");n.addListener((function(n){null===e()&&t(n.matches?"dark":"")}));var a=e();null!==a?t(a):n.matches&&t("dark")}()</script>
+<div id="__docusaurus">
+<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a aria-current="page" class="navbar__brand active" href="/"><img class="navbar__logo" src="/img/wener-logo-head.svg" alt="Wener Logo"><strong>Wener</strong></a><a class="navbar__item navbar__link" href="/notes/java/java">笔记</a><a class="navbar__item navbar__link" href="/blog">故事</a><a class="navbar__item navbar__link" href="/notes/howto/network/dns-prevent-spoofing">指南</a><a class="navbar__item navbar__link" href="/notes/tool/network/ip-lookup">工具</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" target="_blank" rel="noopener noreferrer" href="https://github.com/wenerme/wener">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_3gvz"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_2Zd- moon_Tgrt"></span></div><div class="react-toggle-track-x"><span class="toggle_2Zd- sun_38Cb"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a aria-current="page" class="navbar__brand active" href="/"><img class="navbar__logo" src="/img/wener-logo-head.svg" alt="Wener Logo"><strong>Wener</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/notes/java/java">笔记</a></li><li class="menu__list-item"><a class="menu__link" href="/blog">故事</a></li><li class="menu__list-item"><a class="menu__link" target="_blank" rel="noopener noreferrer" href="https://github.com/wenerme/wener">GitHub</a></li><li class="menu__list-item"><a class="menu__link" href="/notes/howto/network/dns-prevent-spoofing">指南</a></li><li class="menu__list-item"><a class="menu__link" href="/notes/tool/network/ip-lookup">工具</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_NanV"><main class="docMainContainer_3XKI"><div class="padding-vert--lg"><div class="container"><div class="row"><div class="col"><div class="docItemContainer_AHR_"><article><header><h1 class="docTitle_3A0L">热门问题</h1></header><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="linkedlist-vs-arraylist"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#linkedlist-vs-arraylist" title="Direct link to heading">#</a>LinkedList vs ArrayList</h1><p><a href="http://stackoverflow.com/questions/5846183/arraylist-vs-linkedlist">http://stackoverflow.com/questions/5846183/arraylist-vs-linkedlist</a></p><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="时间复杂度比较"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#时间复杂度比较" title="Direct link to heading">#</a>时间复杂度比较</h2><table><thead><tr><th>操作\类型</th><th align="center"><code>LinkedList&lt;E&gt;</code></th><th align="center"><code>ArrayList&lt;E&gt;</code></th></tr></thead><tbody><tr><td>get(int index)</td><td align="center">O(n)</td><td align="center">O(1) ⭐</td></tr><tr><td>add(E element)</td><td align="center">O(1)</td><td align="center">O(1) 最坏: O(n)</td></tr><tr><td>add(int index, E element)</td><td align="center">O(n)</td><td align="center">O(n - index) 最坏: O(n)</td></tr><tr><td>remove(int index)</td><td align="center">O(n) ⭐</td><td align="center">O(n - index) (比如移除最后一个是 O(1))</td></tr><tr><td>ListIterator.add(E element)</td><td align="center">O(1) ⭐</td><td align="center">O(n - index)</td></tr></tbody></table><p>注:</p><ul><li>之所以 ArrayList 有最坏情况, 是因为如果达到了 ArrayList 的容量上限, 那么需要创建新数组, 然后拷贝整个数组.</li><li>ArrayList 实现了 标记接口(Mark interface) <a href="http://docs.oracle.com/javase/7/docs/api/java/util/RandomAccess.html">RandomAccess</a>, 表示该集合可以进行随机访问.</li><li>一般来说 LinkedList 比 ArrayList 需要更大的空间, 而且存储的数据越多, LinkedList 要的空间越大, 因为一个节点有前节点和后节点的指针.</li><li>标注有 ⭐ 的为该类型的主要优势</li></ul><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="jvm-调优"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#jvm-调优" title="Direct link to heading">#</a>jvm 调优</h1><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="调优需要考虑个问题"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#调优需要考虑个问题" title="Direct link to heading">#</a>调优需要考虑个问题</h2><ul><li><p>JVM 发布商和版本</p></li><li><p>对堆大小和垃圾收集进行调优</p></li><li><p>选择一个垃圾收集方案</p><ul><li>对于不同厂商的 JVM 选项可能不同</li><li>对于不同类型的应用, 选择适当的垃圾收集方案可能会更高效
+-verbosegc 详细输出 jvm 垃圾收集信息
+-Xverbosegc:file=/tmp/gc$$.out $$ 指代PID<ul><li>分析多久会继续一次垃圾收集</li><li>一次垃圾收集会使用多长时间</li><li>平均内存足迹</li></ul></li><li>确保堆小于可用RAM</li><li>如果发现花费了大量的时间进行垃圾收集, 应该降低堆大小</li></ul></li><li><p>混合 服务器/客户端 JVM</p></li><li><p>UNIX 线程模型</p></li><li><p>在进行调优前线对代码进行评测(profiling)</p></li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="参考"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#参考" title="Direct link to heading">#</a>参考</h2><ul><li><a href="http://docs.oracle.com/cd/E13222_01/wls/docs81/perform/JVMTuning.html">Jvm 调优指导</a></li><li><a href="http://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html">JVM 参数说明</a></li><li><a href="http://docs.oracle.com/cd/E22289_01/html/821-1274/configuring-the-default-jvm-and-java-arguments.html">JVM 配置参考</a></li><li><a href="http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html">GC 调优</a></li><li><a href="http://www.oracle.com/technetwork/java/javase/tech/index-jsp-137187.html">JVM 在线文档</a></li><li><a href="http://www.javaperformancetuning.com/">Java 性能调优网站</a></li></ul><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="hashmap-vs-hashtable"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#hashmap-vs-hashtable" title="Direct link to heading">#</a>HashMap vs HashTable</h1><p><a href="http://stackoverflow.com/questions/40471/">http://stackoverflow.com/questions/40471/</a></p><ul><li>HashTable 是同步的</li><li>HashTable 不允许 null 键和 null 值</li><li>HashTable 与 HastMap 的关系就像是 Vector 和
+ArrayList 的关系.Vector 和 Hashtable 都是
+不再建议使用的, 可以使用
+Collections.synchronizedMap(HashMap)
+Collections.synchronizedList(ArrayList)</li><li>在多线程中时, 应该使用 ConcurrentHashMap</li><li>Iterator in the HashMap is fail-safe while the enumerator for the Hashtable is not and throw ConcurrentModificationException if any other Thread modifies the map structurally by adding or removing any element except Iterator&#x27;s own remove() method. But this is not a guaranteed behavior and will be done by JVM on best effort.<ul><li>Fail-safe 是与迭代器上下文相关的概念. 如果一个Collection的迭代器被创建了, 但是其他的线程同时在对该 Collection 进行结构化的修改(删除,插入), 那么会抛出 ConcurrentModificationException 异常. 但可能通过调用 set 方法来修改值, 因为这样没有修改 Collection 的结构. 如果在修改结构前先调用 set, 则会抛出 IllegalArgumentException</li></ul></li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="参考-1"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#参考-1" title="Direct link to heading">#</a>参考</h2><ul><li><a href="http://docs.oracle.com/javase/7/docs/technotes/guides/collections/index.html">Java 集合框架 on Oracle docs</a></li></ul><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="hibernate-vs-mybatis"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#hibernate-vs-mybatis" title="Direct link to heading">#</a>Hibernate vs MyBatis</h1><ul><li><p>根据不同的场景选择不同的技术</p></li><li><p>这两个技术是不相互冲突的</p></li><li><p>只是为了完成不同的目的</p></li><li><p>CQRS(Command Query Response Segregation)
+思想:将查询分离出来, 因为查询是使用最多的,要求非常高效
+同时查询关系之间不会太复杂</p></li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="比较"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#比较" title="Direct link to heading">#</a>比较</h2><ul><li>Hibernate 是以对象为中心</li><li>MyBatis 是以数据库为中心</li><li>如果能对数据库 schema 进行完全控制
+并且不要求非常高的效率.那么使用对象模型是非常方便的</li><li>如果是需要处理操作 老旧 的数据库模型, 需要使用复杂的SQL查询
+那么选择 MyBatis 就很好</li><li>Hibernate 对于需要大量 增删改查 的操作非常有利</li><li>MyBatis 对于只进行大量 查询 的操作非常有利</li><li>即便是使用简单的 Hibernate 来查询, 也会加载整个的对象图来进行操作
+所以这时候使用 Hibernate 是非常低效的.</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="参考-2"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#参考-2" title="Direct link to heading">#</a>参考</h2><ul><li><a href="http://programmers.stackexchange.com/questions/158109">what-are-the-advantages-of-mybatis-over-hibernate on stackexchange</a></li><li><a href="http://martinfowler.com/bliki/CQRS.html">Martin Fowler 的 CQRS 文章</a></li><li><a href="http://stackoverflow.com/questions/1984548/">hibernate-vs-ibatis on stackoverflow</a></li><li><a href="http://en.wikipedia.org/wiki/Command%E2%80%93query_separation">Command–query separation</a></li></ul><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="tomcat-调优"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#tomcat-调优" title="Direct link to heading">#</a>Tomcat 调优</h1><p>Tomcat 调优有两点</p><ol><li>优化 tomcat</li><li>优化 应用程序</li></ol><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="18-个优化的小点"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#18-个优化的小点" title="Direct link to heading">#</a>18 个优化的小点</h2><p>整理自 <a href="http://blog.monitis.com/2011/08/06/18-java-tomcat-application-optimization-tips/">18-java-tomcat-application-optimization-tips</a></p><p>下面所述的部分相关操作都在 <a href="http://tomcat.apache.org/tomcat-8.0-doc/jasper-howto.html">jasper-howto</a> 找得到, 主要是使用里面的 Production Configuration</p><ol><li>Precompile Java Server Pages
+预编译 JSP, <a href="http://tomcat.apache.org/tomcat-8.0-doc/jasper-howto.html#Web_Application_Compilation">操作方法</a></li><li>Set Development to “False”
+关闭开发模式</li><li>Set genStringAsCharArray to “True”
+设置 genStringAsCharArray 为 true</li><li>Set modificationTestInterval Higher
+设置更高的 modificationTestInterval</li><li>Set trimSpaces to “True”
+设置 trimSpaces 为 true</li><li>Replace Dynamic Pages With Static Pages
+使用静态页面替换动态页面</li><li>Cache Pages
+缓存页面</li><li>Use a Profiler
+使用分析器 (e.g., JProbe, JProfiler) </li><li>Find the Bottlenecks
+查找瓶颈, 注意瓶颈是否发生在线程同步</li><li>Understand the Application’s Connection Usage Patterns
+理解应用连接的使用情况</li><li>Use Connection Pooling
+使用连接池</li><li>Set an Appropriate Maximum for Number of Threads Per Connector
+为连接器设置一个合适的最大线程数</li><li>Set an Appropriate Value for maxKeepAliveRequests
+为 maxKeepAliveRequests 设置一个合适的值</li><li>Set Timeout and KeepAliveTimeout As Low As Possible
+把 Timeout 和 KeepAliveTimeout 设置的较量小</li><li>Identify Memory Leaks
+发现内存溢出</li><li>Beware of Redeployment Memory Leaks
+注意从新部署时的内存溢出</li><li>Cache Static Content in the Client Web Browser
+在客户端浏览器缓存静态资源</li><li>Use HTTP Rather Than HTTPS
+使用 HTTP 而不是 HTTPS</li></ol><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="参考-3"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#参考-3" title="Direct link to heading">#</a>参考</h2><ul><li><p><a href="http://tomcat.apache.org/tomcat-8.0-doc/jasper-howto.html">jasper-howto</a></p></li><li><p><a href="http://wiki.apache.org/tomcat/FAQ">Tomcat FAQ</a></p></li><li><p><a href="http://shereifhawary.blogspot.com/2013/04/optimizing-tomcat-7-for-best-performance.html">optimizing-tomcat-7-for-best-performance</a></p></li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3z_-"><ul class="contents contents__left-border"><li><a href="#时间复杂度比较" class="contents__link">时间复杂度比较</a></li><li><a href="#调优需要考虑个问题" class="contents__link">调优需要考虑个问题</a></li><li><a href="#参考" class="contents__link">参考</a></li><li><a href="#参考-1" class="contents__link">参考</a></li><li><a href="#比较" class="contents__link">比较</a></li><li><a href="#参考-2" class="contents__link">参考</a></li><li><a href="#18-个优化的小点" class="contents__link">18 个优化的小点</a></li><li><a href="#参考-3" class="contents__link">参考</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">笔记</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/notes/java/java">Java</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/ops/os/alpine/alpine">AlpineLinux</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/devops/kubernetes/k8s-intro">Kubernates</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/voip/voip-intro">VoIP</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Projects</h4><ul class="footer__items"><div>
+              <div>
+              <a class="footer__link-item" href="https://github.com/wenerme/wener">Wener</a>
+              - <a class="footer__link-item" href="https://travis-ci.com/wenerme/wener" title="wenerme/wener - travis-ci">
+                <img style="vertical-align: middle;opacity: .4;" src="https://travis-ci.com/wenerme/wener.svg?branch=master">
+                </a>
+              - <a class="footer__link-item" href="https://github.com/wenerme/wenerme.github.io/deployments" title="GitHub Pages 部署">部署状态</a>
+              </div>
+              </div><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://apis.wener.me">Wener&#x27;s Apis</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" to="https://github.com/wenerme" href="https://github.com/wenerme">GitHub</a></li><li class="footer__item"><a class="footer__link-item" to="https://twitter.com/wenerme" href="https://twitter.com/wenerme">Twitter</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><img class="footer__logo" alt="Wener Site" src="/img/wener-logo.svg"></div>Copyright © 1992-2020 Wener - 构建时间 2020-10-10 21:30</div></div></footer>
+</div>
+
+<script src="/styles.3bfef576.js"></script>
+
+<script src="/runtime~main.21bc78aa.js"></script>
+
+<script src="/main.995ead94.js"></script>
+
+<script src="/1.ea46efd4.js"></script>
+
+<script src="/2.9c5675ff.js"></script>
+
+<script src="/1be78505.3520f6ae.js"></script>
+
+<script src="/7f176b88.fd00c630.js"></script>
+
+<script src="/17896441.cc0f7da5.js"></script>
+
+<script src="/32b19091.fdeb9171.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Docusaurus">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-30404720-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30404720-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-30404720-1")</script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-30404720-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30404720-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-30404720-1")</script>
+
+<title data-react-helmet="true">OLAP</title>
+
+<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Wener Live &amp; Life · Passion I&#x27;ve found"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="# Online Analytical Processing"><meta data-react-helmet="true" property="og:description" content="# Online Analytical Processing"><meta data-react-helmet="true" property="og:url" content="https://wener.me/notes/db/olap/olap">
+
+<link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico">
+
+
+<link rel="stylesheet" href="/styles.cb15e1ce.css">
+
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}function e(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}var n=window.matchMedia("(prefers-color-scheme: dark)");n.addListener((function(n){null===e()&&t(n.matches?"dark":"")}));var a=e();null!==a?t(a):n.matches&&t("dark")}()</script>
+<div id="__docusaurus">
+<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a aria-current="page" class="navbar__brand active" href="/"><img class="navbar__logo" src="/img/wener-logo-head.svg" alt="Wener Logo"><strong>Wener</strong></a><a class="navbar__item navbar__link" href="/notes/java/java">笔记</a><a class="navbar__item navbar__link" href="/blog">故事</a><a class="navbar__item navbar__link" href="/notes/howto/network/dns-prevent-spoofing">指南</a><a class="navbar__item navbar__link" href="/notes/tool/network/ip-lookup">工具</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" target="_blank" rel="noopener noreferrer" href="https://github.com/wenerme/wener">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_3gvz"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_2Zd- moon_Tgrt"></span></div><div class="react-toggle-track-x"><span class="toggle_2Zd- sun_38Cb"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a aria-current="page" class="navbar__brand active" href="/"><img class="navbar__logo" src="/img/wener-logo-head.svg" alt="Wener Logo"><strong>Wener</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/notes/java/java">笔记</a></li><li class="menu__list-item"><a class="menu__link" href="/blog">故事</a></li><li class="menu__list-item"><a class="menu__link" target="_blank" rel="noopener noreferrer" href="https://github.com/wenerme/wener">GitHub</a></li><li class="menu__list-item"><a class="menu__link" href="/notes/howto/network/dns-prevent-spoofing">指南</a></li><li class="menu__list-item"><a class="menu__link" href="/notes/tool/network/ip-lookup">工具</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="docPage_NanV"><main class="docMainContainer_3XKI"><div class="padding-vert--lg"><div class="container"><div class="row"><div class="col"><div class="docItemContainer_AHR_"><article><header><h1 class="docTitle_3A0L">OLAP</h1></header><div class="markdown"><h1><a aria-hidden="true" tabindex="-1" class="anchor" id="online-analytical-processing"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#online-analytical-processing" title="Direct link to heading">#</a>Online Analytical Processing</h1><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="tips"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#tips" title="Direct link to heading">#</a>Tips</h2><ul><li>数据摄取 -&gt; 数据存储 -&gt; 数据处理 -&gt; 数据访问</li><li>关键技术<ul><li>预聚合 - Apache Kylin、Druid<ul><li>Cube</li><li>已知业务指标、数据具有一定结构性</li></ul></li><li>MPP<ul><li>并发数据处理</li></ul></li><li>索引 - Elastic、Solr<ul><li>搜索为主，大量数据中选择小部分数据</li></ul></li><li>列存储 - Impala<ul><li>高压缩比、低IO、快速过滤</li><li>数据量大，不适合大JOIN</li></ul></li><li>内存处理 - Presto<ul><li>快速计算处理</li></ul></li></ul></li><li>选择出发点<ul><li>数据量级：G、T、P、单表量级</li><li>数据类型：时序、日志、事件、行为、汇总</li><li>操作类型：聚合、搜索、统计、指标、JOIN</li><li>读写类型：读为主、写为主、流写入、是否更新</li><li>集成能力：支持多少外部数据源、是否能流处理</li><li>存储计算：偏向存储还是计算分析</li><li>是否需要 Hadoop 生态</li><li>存储时效</li></ul></li><li>常见特性<ul><li>秒级响应</li><li>并发</li><li>数据集大小</li><li>SQL 支持</li><li>离线处理</li><li>实时处理</li><li>去重</li><li>明细</li><li>数据结构变化</li><li>JOIN</li></ul></li><li>参考<ul><li><a href="https://www.slideshare.net/welkaim/big-data-architecture-bi-and-analytics-part-2">Big data architecture: BI and Analytics (Part 2)</a>  </li></ul></li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_3z_-"><ul class="contents contents__left-border"><li><a href="#tips" class="contents__link">Tips</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">笔记</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/notes/java/java">Java</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/ops/os/alpine/alpine">AlpineLinux</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/devops/kubernetes/k8s-intro">Kubernates</a></li><li class="footer__item"><a class="footer__link-item" href="/notes/voip/voip-intro">VoIP</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Projects</h4><ul class="footer__items"><div>
+              <div>
+              <a class="footer__link-item" href="https://github.com/wenerme/wener">Wener</a>
+              - <a class="footer__link-item" href="https://travis-ci.com/wenerme/wener" title="wenerme/wener - travis-ci">
+                <img style="vertical-align: middle;opacity: .4;" src="https://travis-ci.com/wenerme/wener.svg?branch=master">
+                </a>
+              - <a class="footer__link-item" href="https://github.com/wenerme/wenerme.github.io/deployments" title="GitHub Pages 部署">部署状态</a>
+              </div>
+              </div><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://apis.wener.me">Wener&#x27;s Apis</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" to="https://github.com/wenerme" href="https://github.com/wenerme">GitHub</a></li><li class="footer__item"><a class="footer__link-item" to="https://twitter.com/wenerme" href="https://twitter.com/wenerme">Twitter</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><img class="footer__logo" alt="Wener Site" src="/img/wener-logo.svg"></div>Copyright © 1992-2020 Wener - 构建时间 2020-10-10 21:30</div></div></footer>
+</div>
+
+<script src="/styles.3bfef576.js"></script>
+
+<script src="/runtime~main.21bc78aa.js"></script>
+
+<script src="/main.995ead94.js"></script>
+
+<script src="/1.ea46efd4.js"></script>
+
+<script src="/2.9c5675ff.js"></script>
+
+<script src="/1be78505.3520f6ae.js"></script>
+
+<script src="/7f176b88.fd00c630.js"></script>
+
+<script src="/17896441.cc0f7da5.js"></script>
+
+<script src="/7f4a95d5.a60e7db2.js"></script>
+
+
+</body>
+</html>
