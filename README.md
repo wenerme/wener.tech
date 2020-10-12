@@ -1,2 +1,2 @@
-# Site of wener.tech
-* https://wener.tech
+# Content of wener.tech
+* [wener.tech](https://wener.tech)
