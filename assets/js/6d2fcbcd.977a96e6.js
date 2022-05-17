@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[48747],{45957:function(s){s.exports=JSON.parse('{"allTagsPath":"/story/tags","slug":"/story/tags/jackson","name":"Jackson","count":1,"permalink":"/story/tags/jackson"}')}}]);

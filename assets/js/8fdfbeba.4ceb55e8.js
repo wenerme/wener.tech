@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[40321],{66433:function(e){e.exports=JSON.parse('{"allTagsPath":"/story/tags","slug":"/story/tags/android","name":"Android","count":1,"permalink":"/story/tags/android"}')}}]);

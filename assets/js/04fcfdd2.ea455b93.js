@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[20026],{26641:function(e){e.exports=JSON.parse('{"allTagsPath":"/story/tags","slug":"/story/tags/c","name":"C#","count":3,"permalink":"/story/tags/c"}')}}]);

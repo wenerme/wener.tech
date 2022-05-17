@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[20505],{17531:function(s){s.exports=JSON.parse('{"allTagsPath":"/story/tags","slug":"/story/tags/mac-os","name":"macOS","count":1,"permalink":"/story/tags/mac-os"}')}}]);
