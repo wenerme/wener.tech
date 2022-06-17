@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wener.me/story</id>
     <title>Wener Live &amp; Life Blog</title>
-    <updated>2022-05-24T00:00:00.000Z</updated>
+    <updated>2022-06-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wener.me/story"/>
     <subtitle>Wener Live &amp; Life Blog</subtitle>
     <icon>https://wener.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[大师之路]]></title>
+        <id>raod-to-master</id>
+        <link href="https://wener.me/story/raod-to-master"/>
+        <updated>2022-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[幼儿园小朋友的画和自由派名画师的话没什么区别，小学生作文和名作家的文章也没什么区别。它们在形式和内容上都是差不多的。]]></summary>
+        <content type="html"><![CDATA[<p>幼儿园小朋友的画和自由派名画师的话没什么区别，小学生作文和名作家的文章也没什么区别。它们在形式和内容上都是差不多的。</p><p>不同的是，后者会倾注更多的时间、精力去完成作品。而要完成这样的作品又必须要有足够的阅历，知识经验积累，时间的沉淀。</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2022上海封城日记]]></title>
         <id>2022-shanghai-lockdown-memo</id>
