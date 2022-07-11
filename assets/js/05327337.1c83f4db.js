@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[75922],{22904:function(e){e.exports=JSON.parse('{"label":"Protocol","permalink":"/notes/tags/protocol","allTagsPath":"/notes/tags","count":1,"items":[{"id":"voip/asterisk/iax","title":"IAX","description":"- rfc5456","permalink":"/notes/voip/asterisk/iax"}]}')}}]);
