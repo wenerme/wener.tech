@@ -2,52 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wener.me/story</id>
     <title>Wener Live &amp; Life Blog</title>
-    <updated>2022-09-22T09:24:37.000Z</updated>
+    <updated>2022-08-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wener.me/story"/>
     <subtitle>Wener Live &amp; Life Blog</subtitle>
     <icon>https://wener.me/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[文章]]></title>
-        <id>/README</id>
-        <link href="https://wener.me/story/README"/>
-        <updated>2022-09-22T09:24:37.000Z</updated>
-        <summary type="html"><![CDATA[思考记录点滴]]></summary>
-        <content type="html"><![CDATA[<blockquote><p>思考记录点滴</p></blockquote>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《我把我的矜持都给了她》]]></title>
-        <id>/here-my-love/README</id>
-        <link href="https://wener.me/story/here-my-love/README"/>
-        <updated>2022-09-22T09:24:37.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Live & Life]]></title>
-        <id>/lal/README</id>
-        <link href="https://wener.me/story/lal/README"/>
-        <updated>2022-09-22T09:24:37.000Z</updated>
-        <summary type="html"><![CDATA[Enjoy the life if you live]]></summary>
-        <content type="html"><![CDATA[<blockquote><p>Enjoy the life if you live</p><p>-- :-)</p></blockquote>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小东西]]></title>
-        <id>/那些小东西/README</id>
-        <link href="https://wener.me/story/那些小东西/README"/>
-        <updated>2022-09-22T09:24:37.000Z</updated>
-        <summary type="html"><![CDATA[Little things make life better.]]></summary>
-        <content type="html"><![CDATA[<p>Little things make life better.</p><p>这里收录了我平时自己或者别人找我做的一些东西,就记录在这里了.
-不在乎天长地久,只在乎曾经拥有.嘿嘿</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[那些小东西/院系首页修改/README]]></title>
-        <id>/那些小东西/院系首页修改/README</id>
-        <link href="https://wener.me/story/那些小东西/院系首页修改/README"/>
-        <updated>2022-09-22T09:24:37.000Z</updated>
-        <summary type="html"><![CDATA[是帮别人修改的院系首页,]]></summary>
-        <content type="html"><![CDATA[<p>是帮别人修改的院系首页,
-用的bt3,没做兼容,在chrome下测试</p><p>菜单的效果是用的 <code>cbpHorizontalSlideOutMenu</code>,
-google一下就知道了.</p><h2 class="anchor anchorWithStickyNavbar_YhNx" id="截图">截图<a class="hash-link" href="#截图" title="Direct link to heading">​</a></h2><p><img loading="lazy" src="https://raw.github.com/wenerme/blog/master/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%B8%9C%E8%A5%BF/%E9%99%A2%E7%B3%BB%E9%A6%96%E9%A1%B5%E4%BF%AE%E6%94%B9/screenshot-index.jpg" alt="主页" title="主页" class="img_pFMC"></p><p><img loading="lazy" src="https://raw.github.com/wenerme/blog/master/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%B8%9C%E8%A5%BF/%E9%99%A2%E7%B3%BB%E9%A6%96%E9%A1%B5%E4%BF%AE%E6%94%B9/screenshot-menu.jpg" alt="院系首页修改" title="院系首页修改" class="img_pFMC"></p>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[CRM 实现经历]]></title>
         <id>crm-trails</id>
@@ -476,6 +435,38 @@ Kubernetes 除了提供基础的容器部署，还提供了实现规模服务需
         <category label="阿里" term="阿里"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Live & Life]]></title>
+        <id>/lal/README</id>
+        <link href="https://wener.me/story/lal/README"/>
+        <updated>2019-07-25T19:27:25.000Z</updated>
+        <summary type="html"><![CDATA[Enjoy the life if you live]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>Enjoy the life if you live</p><p>-- :-)</p></blockquote>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文章]]></title>
+        <id>/README</id>
+        <link href="https://wener.me/story/README"/>
+        <updated>2019-07-25T19:06:55.000Z</updated>
+        <summary type="html"><![CDATA[思考记录点滴]]></summary>
+        <content type="html"><![CDATA[<blockquote><p>思考记录点滴</p></blockquote>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《我把我的矜持都给了她》]]></title>
+        <id>/here-my-love/README</id>
+        <link href="https://wener.me/story/here-my-love/README"/>
+        <updated>2019-07-25T19:06:55.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[那些小东西/院系首页修改/README]]></title>
+        <id>/那些小东西/院系首页修改/README</id>
+        <link href="https://wener.me/story/那些小东西/院系首页修改/README"/>
+        <updated>2019-07-25T19:06:55.000Z</updated>
+        <summary type="html"><![CDATA[是帮别人修改的院系首页,]]></summary>
+        <content type="html"><![CDATA[<p>是帮别人修改的院系首页,
+用的bt3,没做兼容,在chrome下测试</p><p>菜单的效果是用的 <code>cbpHorizontalSlideOutMenu</code>,
+google一下就知道了.</p><h2 class="anchor anchorWithStickyNavbar_YhNx" id="截图">截图<a class="hash-link" href="#截图" title="Direct link to heading">​</a></h2><p><img loading="lazy" src="https://raw.github.com/wenerme/blog/master/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%B8%9C%E8%A5%BF/%E9%99%A2%E7%B3%BB%E9%A6%96%E9%A1%B5%E4%BF%AE%E6%94%B9/screenshot-index.jpg" alt="主页" title="主页" class="img_pFMC"></p><p><img loading="lazy" src="https://raw.github.com/wenerme/blog/master/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%B8%9C%E8%A5%BF/%E9%99%A2%E7%B3%BB%E9%A6%96%E9%A1%B5%E4%BF%AE%E6%94%B9/screenshot-menu.jpg" alt="院系首页修改" title="院系首页修改" class="img_pFMC"></p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Java 11 JavaFX 第一个应用]]></title>
         <id>java11-javafx-first-app</id>
         <link href="https://wener.me/story/java11-javafx-first-app"/>
@@ -689,6 +680,15 @@ e.g. <code>void OnKeyInput(KeyEvent e);</code></li></ul><h1>我的实践</h1><p>
 致 那些人</p><p>故事的开始，免不了有一个女孩一个男孩，感情不都这样开始的么？</p><p>那是一次约会，至少他是那样看待的。一生中的第一次约会，难免觉得有些紧张，过于隆重。反复的检查了几遍自己的着装和打扮后，始终还是觉得缺了点什么。其实他也就一个约摸17 8岁的普通小男孩，一件体恤一条七分库一头寸把长的黑发，身上也没有什么其它行头，算得上是轻装上阵了。他也实属无奈，没有好的家庭条件，自己身边也没人辅导打扮，只要自己看起来过得去就算满分了。只是这次不同，第一次难免，不，是必须得庄重点，自己的满分都不好意思拿出去见人。其实他也不是第一次见到她了，作为同班同学，甚至差一毫米的同桌。他总觉得那次或许会是他终生的遗憾，在安排座位的时候，本来他们两是没有靠在一起的，后来因老师觉得班上男女同学的座位坐标不符合某种数学上的坐标分布，就稍微调整了一下座位，看着看着，发现一不小心老师为了他把她调成自己的同桌，不过是隔着一条走到那种。他才不管走道不走道什么的，距离从来不是问题，换一个角度想想，这也算得上是彼此的同桌了。但是在这位同桌还没缓过神来的时候，同桌前面的左边的上边的右边和他的同桌对调了一下，顺便也把他给调了上去。唉，差一毫米的同桌。他习惯性的把遗憾的事情说成是差一毫米的，因为那样让他感觉其实当初还是距离很近很近可以抓住他的，只是差一毫米让它溜走了。一毫米的同桌他还是天天可以见到的，因为不只是一个班的，那次调整座位虽然遗憾，万幸的是和他一组，并且她还当上了组长。这样接触就更多了。因为她当上了组长，他也变得活泼了不少，因为总是瞅着看有没有哪篇课文是需要背诵的，这样又多了一次机会一个理由了！</p>]]></content>
         <category label="我把我的矜持都给了她" term="我把我的矜持都给了她"/>
         <category label="故事" term="故事"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小东西]]></title>
+        <id>/那些小东西/README</id>
+        <link href="https://wener.me/story/那些小东西/README"/>
+        <updated>2013-12-28T16:47:31.000Z</updated>
+        <summary type="html"><![CDATA[Little things make life better.]]></summary>
+        <content type="html"><![CDATA[<p>Little things make life better.</p><p>这里收录了我平时自己或者别人找我做的一些东西,就记录在这里了.
+不在乎天长地久,只在乎曾经拥有.嘿嘿</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[学生考勤系统]]></title>
