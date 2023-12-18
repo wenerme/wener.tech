@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[30382],{10174:function(e){e.exports=JSON.parse('{"label":"Cloud","permalink":"/notes/tags/cloud","allTagsPath":"/notes/tags","count":1,"items":[{"id":"devops/infra/elemental","title":"elemental","description":"- rancher/elemental","permalink":"/notes/devops/infra/elemental"}]}')}}]);
