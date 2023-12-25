@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[96490],{58222:function(e){e.exports=JSON.parse('{"label":"Build","permalink":"/notes/tags/build","allTagsPath":"/notes/tags","count":1,"items":[{"id":"os/android/android-build","title":"Android Build","description":"- AGP","permalink":"/notes/os/android/build"}]}')}}]);

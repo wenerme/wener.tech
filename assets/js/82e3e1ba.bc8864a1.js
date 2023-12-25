@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[39930],{25829:function(e){e.exports=JSON.parse('{"label":"VoIP","permalink":"/story/tags/vo-ip","allTagsPath":"/story/tags","count":2}')}}]);

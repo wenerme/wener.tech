@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[28690],{30188:e=>{e.exports=JSON.parse('{"label":"AWS","permalink":"/notes/tags/aws","allTagsPath":"/notes/tags","count":1,"items":[{"id":"service/storage/s3","title":"S3","description":"- oxyno-zeta/s3-proxy","permalink":"/notes/service/storage/s3"}],"unlisted":false}')}}]);
