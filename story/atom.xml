@@ -2114,8 +2114,9 @@ docusaurus 本身是 facebook 为了支持技术文档存在的，因此对 doc 
 <p>至此 wener.me 可以被访问。</p>
 <p>因为 cloudflare 在国内访问速度较慢，且 .me 无法备案的原因，因此镜像了 wener.tech。</p>
 <div class="theme-admonition theme-admonition-caution admonition_zKAN alert alert--warning"><div class="admonitionHeading_jO4x"><span class="admonitionIcon_hWUL"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent_qAlE"><p>微信会拦截所有没有备案的域名，提示用户是否前往，非常影响体验。</p></div></div>
-<p>wener.tech 使用阿里云 dcdn/全站加速 实现，添加域名 <a href="http://www.wener.tech/" target="_blank" rel="noopener noreferrer">www.wener.tech</a> ，指向 185.199.108.153 和 185.199.109.153。
-添加完成后前往域名解析，将 <a href="http://www.wener.tech/" target="_blank" rel="noopener noreferrer">www.wener.tech</a> CNAME 到 <a href="http://www.wener.tech.w.kunluncan.com/" target="_blank" rel="noopener noreferrer">www.wener.tech.w.kunluncan.com</a> 。完成后建议开启 https。</p>
+<p>wener.tech 使用 nginx 缓存实现。</p>
+<p><del>wener.tech 使用阿里云 dcdn/全站加速 实现，添加域名 <a href="http://www.wener.tech/" target="_blank" rel="noopener noreferrer">www.wener.tech</a> ，指向 185.199.108.153 和 185.199.109.153。
+添加完成后前往域名解析，将 <a href="http://www.wener.tech/" target="_blank" rel="noopener noreferrer">www.wener.tech</a> CNAME 到 <a href="http://www.wener.tech.w.kunluncan.com/" target="_blank" rel="noopener noreferrer">www.wener.tech.w.kunluncan.com</a> 。完成后建议开启 https</del>。</p>
 <p>至此 <a href="http://www.wener.tech/" target="_blank" rel="noopener noreferrer">www.wener.tech</a> 可以被访问。</p>
 <div class="theme-admonition theme-admonition-caution admonition_zKAN alert alert--warning"><div class="admonitionHeading_jO4x"><span class="admonitionIcon_hWUL"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>dcdn 的 坑</div><div class="admonitionContent_qAlE"><ul>
 <li>阿里的 dcdn 实现和 cloudflare 类似的功能，但体验差很多</li>
