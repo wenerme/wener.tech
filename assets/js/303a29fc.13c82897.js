@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[23514],{83524:e=>{e.exports=JSON.parse('{"label":"HTML","permalink":"/notes/tags/html","allTagsPath":"/notes/tags","count":1,"items":[{"id":"web/spec/html/html-popover","title":"popover","description":"- HTML attributes","permalink":"/notes/web/spec/html/popover"}],"unlisted":false}')}}]);

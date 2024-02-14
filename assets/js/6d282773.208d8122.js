@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[38697],{55298:e=>{e.exports=JSON.parse('{"label":"BBVM","permalink":"/story/tags/bbvm","allTagsPath":"/story/tags","count":7,"unlisted":false}')}}]);
