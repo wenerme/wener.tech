@@ -4,10 +4,103 @@
         <title>Wener Live &amp; Life Blog</title>
         <link>https://wener.me/story</link>
         <description>Wener Live &amp; Life Blog</description>
-        <lastBuildDate>Wed, 21 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[为什么选择 Alpine Linux?]]></title>
+            <link>https://wener.me/story/why-alpine</link>
+            <guid>https://wener.me/story/why-alpine</guid>
+            <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Small. Simple. Secure.]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>Small. Simple. Secure.</p>
+<p>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</p>
+<p>Alpine Linux 是一个基于 musl libc 和 busybox, 面向安全, 轻量级的 Linux 发布版.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="为什么">为什么<a href="https://wener.me/story/why-alpine#%E4%B8%BA%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 为什么" title="Direct link to 为什么">​</a></h2>
+<ul>
+<li>开源</li>
+<li>轻量级
+<ul>
+<li>最小安装 5MB</li>
+<li>大部分都是静态链接</li>
+<li>musl</li>
+<li>openrc</li>
+</ul>
+</li>
+<li>稳定滚动升级
+<ul>
+<li>有稳定版和最新版</li>
+<li>每半年一个稳定版</li>
+<li>稳定版会维护两年</li>
+<li>可非常简便的升级</li>
+</ul>
+</li>
+<li>简单的包管理
+<ul>
+<li>APK 本地存储逻辑和结构非常简单</li>
+<li>APK 仓库逻辑结构简单 - 不同于 deb/rpm</li>
+<li>包的构建也很简单 - abuild 能够在本地构建包</li>
+</ul>
+</li>
+<li>现代化
+<ul>
+<li>内核版本较新
+<ul>
+<li>能够利用上很多新内核的功能</li>
+</ul>
+</li>
+<li>包版本比较新
+<ul>
+<li>例如 zfs, docker 等都是对应版本的最新版</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>生态圈丰富
+<ul>
+<li>包非常多</li>
+<li>兼容良好</li>
+</ul>
+</li>
+<li>支持较多平台
+<ul>
+<li>x86_64</li>
+<li>x86</li>
+<li>aarch64</li>
+<li>armhf</li>
+<li>ppc64le</li>
+<li>s390x</li>
+<li>armv7</li>
+<li>riscv64</li>
+</ul>
+</li>
+<li>支持树莓派</li>
+<li>很多 docker 镜像基于 AlpineLinux
+<ul>
+<li>Docker For Mac 的基础系统是 AlpineLinux</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="when-not">Alpine 的缺点<a href="https://wener.me/story/why-alpine#when-not" class="hash-link" aria-label="Direct link to Alpine 的缺点" title="Direct link to Alpine 的缺点">​</a></h2>
+<ul>
+<li>文档不够全面
+<ul>
+<li>Wiki 内容较少, 更新不多</li>
+<li>但大多文档可参考 Arch 和 Gentoo</li>
+</ul>
+</li>
+<li>musl libc 可能有兼容问题, 有时候需要补丁
+<ul>
+<li>但越来越多的开发者也都会做兼容了</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+            <category>DevOps</category>
+            <category>Alpine</category>
+        </item>
         <item>
             <title><![CDATA[基于 SNI 实现无感全局代理]]></title>
             <link>https://wener.me/story/sni-proxy</link>
@@ -81,7 +174,7 @@
 <li>直接映射单个域名</li>
 <li>注意： CNAME 的域名也需要映射</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="为什么用-1723211">为什么用 172.32.1.1<a href="https://wener.me/story/sni-proxy#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8-1723211" class="hash-link" aria-label="Direct link to 为什么用 172.32.1.1" title="Direct link to 为什么用 172.32.1.1">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="为什么用-1723211">为什么用 172.32.1.1<a href="https://wener.me/story/sni-proxy#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8-1723211" class="hash-link" aria-label="Direct link to 为�什么用 172.32.1.1" title="Direct link to 为什么用 172.32.1.1">​</a></h2>
 <ul>
 <li>172.32.1.1 为公网 IP 地址，但这个地址被使用的概率非常低</li>
 <li>如果不给代理节点一个公网地址而是使用内网地址，那么 iOS 访问网络时会提示 “是否允许应用访问本地网络”。</li>
@@ -107,7 +200,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="其他无感全局代理的方式">其他无感全局代理的方式<a href="https://wener.me/story/sni-proxy#%E5%85%B6%E4%BB%96%E6%97%A0%E6%84%9F%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86%E7%9A%84%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 其他无感全局代理的方��式" title="Direct link to 其他无感全局代理的方式">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="其他无感全局代理的方式">其他无感全局代理的方式<a href="https://wener.me/story/sni-proxy#%E5%85%B6%E4%BB%96%E6%97%A0%E6%84%9F%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86%E7%9A%84%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 其他无感全局代理的方式" title="Direct link to 其他无感全局代理的方式">​</a></h2>
 <ol>
 <li>修改网关，tproxy - 无感，但是重新部署 dhcp，替代路由作为网关</li>
 <li>在 WiFi+Lan 的节点上，将 WiFi 配置为走代理，连 WiFi 则走代理，增加一个 lan 不修改现有。</li>
@@ -2758,1096 +2851,6 @@ docusaurus 本身是 facebook 为了支持技术文档存在的，因此对 doc 
 <li><a href="https://www.slideshare.net/JranVinzens/ari-and-agi-a-powerful-combination" target="_blank" rel="noopener noreferrer">ARI and AGI, a powerful combination</a></li>
 </ul>]]></content:encoded>
             <category>Asterisk</category>
-            <category>VoIP</category>
-        </item>
-        <item>
-            <title><![CDATA[OpenVox VoxStack 网关分析]]></title>
-            <link>https://wener.me/story/openvox-gw-inside</link>
-            <guid>https://wener.me/story/openvox-gw-inside</guid>
-            <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[因为淘到一个二手 OpenVox 语音网关，就好奇"里面"长什么样。]]></description>
-            <content:encoded><![CDATA[<p>因为淘到一个二手 OpenVox 语音网关，就好奇"里面"长什么样。</p>
-<p>Let's find out.</p>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="vs-agu-e2m0800">VS-AGU-E2M0800<a href="https://wener.me/story/openvox-gw-inside#vs-agu-e2m0800" class="hash-link" aria-label="Direct link to VS-AGU-E2M0800" title="Direct link to VS-AGU-E2M0800">​</a></h2>
-<ul>
-<li>VS - VoxStack 系列 - 模块化，热插拔</li>
-<li>AGU - Analog Gateway - 模拟网关</li>
-<li>软件 1.1.10</li>
-<li>硬件 1.0.0</li>
-</ul>
-<p>一张卡两个模块</p>
-<ul>
-<li>E2M8HJ9DJ68P - VS 模块
-<ul>
-<li>M83241G13 - Freescale Semiconductor - NXP
-<ul>
-<li>Telecom Interface ICs C1K-LS102M 450MHz</li>
-<li>IC C1K 450MHZ VOIP 448BGA</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>FXS-420 v1.2 - FS42HJ1KK4UY5
-<ul>
-<li>S13215-FM</li>
-</ul>
-</li>
-<li>FXO-400 v1.4 - FXODHJO2XT6L
-<ul>
-<li>3019-FT 1718FF L0L4</li>
-<li>Si3050-FT 1708EM F1Q5</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="web-管理界面">Web 管理界面<a href="https://wener.me/story/openvox-gw-inside#web-%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2" class="hash-link" aria-label="Direct link to Web 管理界面" title="Direct link to Web 管理界面">​</a></h2>
-<p>界面类似于官方演示 <a href="http://admin:admin@demo.openvox.cn:65327/" target="_blank" rel="noopener noreferrer">http://admin:admin@demo.openvox.cn:65327</a></p>
-<p>通过开启 ssh, 账号名设置为 super 可获取到 root 权限，默认 SSH 端口 12345。</p>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="硬件">硬件<a href="https://wener.me/story/openvox-gw-inside#%E7%A1%AC%E4%BB%B6" class="hash-link" aria-label="Direct link to 硬件" title="Direct link to 硬件">​</a></h2>
-<blockquote>
-<p>未开箱，不一定准确。</p>
-</blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>-</th><th>规格</th></tr></thead><tbody><tr><td>内存</td><td>120MB</td></tr><tr><td>CPU</td><td>ARMv6-compatible processor rev 5 (v6l)</td></tr></tbody></table>
-<p><strong>Comcerto 1000 M83263G</strong></p>
-<ul>
-<li>ARM1136 - 2 Core, 650MHz</li>
-<li>敏迅科技/Mindspeed Technologies 芯片</li>
-<li>Mindspeed 主要提供 VoIP 领域解决方案 - DSP, LTE, Transcede</li>
-<li>VoIP, Security Engine, PCIe 2, RGMII 2</li>
-<li>SDRAM 16/32 bit DDR2-800/667/533</li>
-<li>L1 缓存 2x(64K D<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">/</mi><mn>64</mn><mi>K</mi><mi>I</mi></mrow><annotation encoding="application/x-tex">/64K I</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord">/64</span><span class="mord mathnormal" style="margin-right:0.07153em">K</span><span class="mord mathnormal" style="margin-right:0.07847em">I</span></span></span></span>)</li>
-<li>VoIP 能力
-<ul>
-<li>Field hardened voice features</li>
-<li>World class acoustic echo cancellation technology</li>
-<li>Narrow and wideband codecs</li>
-<li>G.711, G.729, G.722, G.723.1, iLBC, T.38, G.729.1, G.722.2, AMR, AMR Wideband</li>
-<li>Enhanced echo canceller, CID-I/II, VAD/CNG, AGC</li>
-<li>3-Way conferencing</li>
-</ul>
-</li>
-<li>TDM/PCM interface for glue-less VoIP support</li>
-<li>2009 年</li>
-</ul>
-<p><strong>/proc/cpuinfo</strong></p>
-<div class="codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-text codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Processor	: ARMv6-compatible processor rev 5 (v6l)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">BogoMIPS	: 648.80</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Features	: swp half thumb fastmult edsp java</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CPU implementer	: 0x41</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CPU architecture: 6TEJ</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CPU variant	: 0x1</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CPU part	: 0xb36</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CPU revision	: 5</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Hardware	: Comcerto 1000 (EVM)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Revision	: 0000</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Serial		: 0000000000000000</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="系统环境">系统环境<a href="https://wener.me/story/openvox-gw-inside#%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83" class="hash-link" aria-label="Direct link to 系统环境" title="Direct link to 系统环境">​</a></h2>
-<blockquote>
-<p>底层基于 OpenWrt</p>
-</blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>-</th><th>-</th></tr></thead><tbody><tr><td>uname -a</td><td>Linux General 2.6.33.5 #4 Tue Aug 29 20:38:01 CST 2017 armv6l unknown</td></tr><tr><td>Busybox</td><td>1.4.2</td></tr><tr><td>Asterisk</td><td>1.8.20.0 / 1.8.X 发布于 2010-10-21 EOL 2015-10-21</td></tr><tr><td>dahdi</td><td>2.6.0</td></tr><tr><td>dcra</td><td>0.1.0</td></tr></tbody></table>
-<blockquote>
-<p>Busybox applet</p>
-<p>[, [[, arping, ash, awk, awx, basename, bunzip2, bzcat, cat, chgrp, chmod, chown, chroot, clear, cp, crond, crontab, cut, date, df, dirname, dmesg, du, echo, egrep, env, expr, false, fgrep, find, free, getty, grep, gunzip, gzip, halt, head, hostid, hostname, httpd, id, ifconfig, init, insmod, ipkg, kill, killall, killall5, klogd, length, less, ln, lock, logger, login, logread, ls, lsmod, md5sum, mdev, mesg, mkdir, mkfifo, mknod, mktemp, mount, mv, nc, netmsg, netstat, nice, nslookup, passwd, pidof, ping, ping6, pivot_root, poweroff, printf, ps, pwd, rdate, reboot, renice, reset, rm, rmdir, rmmod, route, sed, seq, sh, sleep, sort, strings, stty, switch_root, sync, sysctl, syslogd, tail, tar, tee, telnet, test, time, top, touch, tr, traceroute, true, tty, udhcpc, umount, uname, uniq, uptime, vconfig, vi, watchdog, wc, wget, which, xargs, yes, zcat</p>
-</blockquote>
-<p><strong>cmdline</strong></p>
-<div class="codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-text codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">init=/etc/preinit ubi.mtd=4,2048 ubi.block=0,0 root=/dev/ubiblk0_0 ro rootfstype=squashfs hwaddress=eth0,a0:98:05:0e:04:8e hwaddress=eth2,00:03:7F:0B:00:01 console=ttyS0,115200 mtdparts=comcertonand:256k(uboot),128k(env),128K(param),4M(kernel),20M(root),4M(ekernel),20M(eroot),16M(config),-(system) partno=M83263G fppmode=1</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>内核模块</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>Module</th><th>Size</th><th>Used by</th></tr></thead><tbody><tr><td>wctdmc1k</td><td>30096</td><td>16</td></tr><tr><td>dcra</td><td>8524</td><td>1 wctdmc1k</td></tr><tr><td>dahdi</td><td>185948</td><td>17 wctdmc1k</td></tr><tr><td>krtpd</td><td>148520</td><td>0</td></tr><tr><td>csmencaps</td><td>14740</td><td>2</td></tr><tr><td>led_key</td><td>2500</td><td>4</td></tr></tbody></table>
-<ul>
-<li>dahdi
-<ul>
-<li>wctdmc1k - OpenVox 模拟信号处理模块
-<ul>
-<li>WCTDMC1K 设备驱动 - Mindspeed 开发的芯片驱动</li>
-</ul>
-</li>
-<li>dcra - opvx_dcra - Access Dahdi Channel Registers through procfs</li>
-</ul>
-</li>
-<li>csmencaps - 应该是 FX 处理相关模块</li>
-<li>led_key - 应该是驱动面板 led 的</li>
-<li>krtpd - Kernel RTP proxy for Asterisk - openvox 开发
-<ul>
-<li>类似功能开源 <a href="https://github.com/sipwise/rtpengine" target="_blank" rel="noopener noreferrer">sipwise/rtpengine</a></li>
-</ul>
-</li>
-</ul>
-<div class="codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-text codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">filename:       /lib/modules/2.6.33.5/dcra.ko</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">license:        GPL v2</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">alias:          opvx_dcra</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">description:    Access Dahdi Channel Registers through procfs</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">parmtype:       maxchan:int</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">parmtype:       debug:int</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">depends:</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">vermagic:       2.6.33.5 mod_unload ARMv6</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>主要用户进程</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>proc</th><th>desc</th></tr></thead><tbody><tr><td>/bin/php /my_tools/keeper</td><td></td></tr><tr><td>/bin/php /my_tools/logfile_monitor</td><td></td></tr><tr><td>/my_tools/checkasteriskstat</td><td></td></tr><tr><td>/my_tools/ntpclient</td><td>时间同步</td></tr><tr><td>/my_tools/resetkey</td><td></td></tr><tr><td>/my_tools/sys_restore</td><td></td></tr><tr><td>/my_tools/watchdog</td><td></td></tr><tr><td>/usr/sbin/crond</td><td>定时任务</td></tr><tr><td>/webservice/service</td><td></td></tr><tr><td>asterisk -g</td><td>asterisk 主进程</td></tr><tr><td>dropbear -p 12345</td><td>SSH 守护进程</td></tr><tr><td>lighttpd -f /etc/lighttpd.conf -m /usr/lib/lighttpd</td><td>Web 服务</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_RZ0P" id="系统目录">系统目录<a href="https://wener.me/story/openvox-gw-inside#%E7%B3%BB%E7%BB%9F%E7%9B%AE%E5%BD%95" class="hash-link" aria-label="Direct link to 系统目录" title="Direct link to 系统目录">​</a></h3>
-<ul>
-<li>/www -&gt; /tmp/web/www</li>
-<li>/tmp/web/www - cgi-bin css images index.html js lang - 管理应用</li>
-<li>/data/
-<ul>
-<li>info/</li>
-<li>log/
-<ul>
-<li>cdr.db - SQLite 通话记录</li>
-<li>sys-log - 系统日志</li>
-<li>update.txt - 更新日志</li>
-</ul>
-</li>
-<li>sms/</li>
-</ul>
-</li>
-<li>/my_tools/ - 系统工具</li>
-<li>/webservice/service - 服务</li>
-<li>/version
-<ul>
-<li>version - 系统版本</li>
-<li>build_time - 构建时间</li>
-<li>cfg_ver_list - 配置版本 - 内容 <code>1.1.10</code></li>
-<li>def_cfg.tar.gz - asterisk 配置备份</li>
-<li>openvpn.sample_configs.tar.gz</li>
-<li>sip_bendpoints.sample_configs.tar.gz</li>
-</ul>
-</li>
-</ul>
-<p><strong>系统挂载</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>dev</th><th>size</th><th>path</th><th>fstype</th></tr></thead><tbody><tr><td>/dev/ubiblk0_0</td><td>16.1M</td><td>/</td><td>rootfs, squashfs</td></tr><tr><td>none</td><td>57.5M</td><td>/tmp</td><td>tmpfs</td></tr><tr><td>tmpfs</td><td>512.0k</td><td>/dev</td><td>tmpfs</td></tr><tr><td>/dev/mtdblock7</td><td>16.0M</td><td>/etc/asterisk</td><td>jffs2</td></tr><tr><td>/dev/mtdblock8</td><td>63.5M</td><td>/data</td><td>jffs2</td></tr></tbody></table>
-<p><strong>mtd 分区</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>mtd</th><th>fs</th><th>range</th><th>name</th><th>size</th><th>mount</th></tr></thead><tbody><tr><td>mtd0</td><td></td><td>0x000000000000-0x000000040000</td><td>uboot</td><td>256k</td><td></td></tr><tr><td>mtd1</td><td></td><td>0x000000040000-0x000000060000</td><td>env</td><td>128k</td><td></td></tr><tr><td>mtd2</td><td></td><td>0x000000060000-0x000000080000</td><td>param</td><td>128K</td><td></td></tr><tr><td>mtd3</td><td></td><td>0x000000080000-0x000000480000</td><td>kernel</td><td>4M</td><td></td></tr><tr><td>mtd4</td><td>ubi0</td><td>0x000000480000-0x000001880000</td><td>root</td><td>20MB</td><td>/</td></tr><tr><td>mtd5</td><td></td><td>0x000001880000-0x000001c80000</td><td>ekernel</td><td>4M</td><td></td></tr><tr><td>mtd6</td><td></td><td>0x000001c80000-0x000003080000</td><td>eroot</td><td>20M</td><td></td></tr><tr><td>mtd7</td><td>jffs2</td><td>0x000003080000-0x000004080000</td><td>config</td><td>16M</td><td>/etc/asterisk</td></tr><tr><td>mtd8</td><td>jffs2</td><td>0x000004080000-0x000008000000</td><td>system</td><td>63.5MB</td><td>/data</td></tr></tbody></table>
-<p><strong>v1.1.23</strong></p>
-<p>版本变化底层系统和软件均无变化，变化的主要是 php 代码和部分配置。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>-</th><th>-</th></tr></thead><tbody><tr><td>uname -a</td><td>Linux General 2.6.33.5 #23 Mon Oct 14 17:12:50 CST 2019 armv6l unknown</td></tr></tbody></table>
-<h3 class="anchor anchorWithStickyNavbar_RZ0P" id="安装包">安装包<a href="https://wener.me/story/openvox-gw-inside#%E5%AE%89%E8%A3%85%E5%8C%85" class="hash-link" aria-label="Direct link to 安装包" title="Direct link to 安装包">​</a></h3>
-<blockquote>
-<p>ipkg list</p>
-</blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>pkg</th><th>ver</th></tr></thead><tbody><tr><td>base-files-comcerto1000</td><td>14-unknown</td></tr><tr><td>busybox</td><td>1.4.2-1</td></tr><tr><td>cmm</td><td>7.00-5</td></tr><tr><td>cyclesoak</td><td>none-1</td></tr><tr><td>dropbear</td><td>0.49-1</td></tr><tr><td>ethtool</td><td>3-0</td></tr><tr><td>hotplug2</td><td>0.9-1</td></tr><tr><td>ip</td><td>2.6.23-1</td></tr><tr><td>kernel</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>kmod-csme</td><td>2.6.33.5+2.14.0-comcerto1000-1</td></tr><tr><td>kmod-fci</td><td>2.6.33.5+7.00-comcerto1000-1</td></tr><tr><td>kmod-fpp-csme</td><td>2.6.33.5+2.14.0-comcerto1000-1</td></tr><tr><td>kmod-fpp-driver</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>kmod-ipt-conntrack</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>kmod-ipt-core</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>kmod-matisse</td><td>1.00-0</td></tr><tr><td>kmod-nf-conntrack-netlink</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>kmod-nfnetlink</td><td>2.6.33.5-comcerto1000-1</td></tr><tr><td>ldd</td><td>14</td></tr><tr><td>libc</td><td>2.7-14</td></tr><tr><td>libcli</td><td>1.9.3-1</td></tr><tr><td>libgcc</td><td>4.1.2-14</td></tr><tr><td>libgdbm</td><td>1.8.3-0</td></tr><tr><td>libgmp</td><td>4.2.1-1</td></tr><tr><td>libiptc</td><td>1.4.7-1</td></tr><tr><td>libncurses</td><td>5.2-8</td></tr><tr><td>libnfconntrack</td><td>0.0.100</td></tr><tr><td>libnfnetlink</td><td>1.0.0</td></tr><tr><td>libopenssl</td><td>0.9.8q-1</td></tr><tr><td>libpcap</td><td>1.1.1-2</td></tr><tr><td>libpopt</td><td>1.7-4</td></tr><tr><td>libpthread</td><td>2.7-14</td></tr><tr><td>librt</td><td>2.7-14</td></tr><tr><td>libstdcpp</td><td>4.1.2-14</td></tr><tr><td>libxtables</td><td>1.4.7-1</td></tr><tr><td>msp-firmware</td><td>2.6.33.5+3.00.11-comcerto1000-1</td></tr><tr><td>mtd</td><td>5</td></tr><tr><td>ntpclient</td><td>2003_194-2</td></tr><tr><td>openssl-util</td><td>0.9.8q-1</td></tr><tr><td>ppp</td><td>2.4.3-7</td></tr><tr><td>ppp-mod-pppoe</td><td>2.4.3-7</td></tr><tr><td>rp-pppoe-client</td><td>3.8-1</td></tr><tr><td>udevtrigger</td><td>106-1</td></tr><tr><td>vapi</td><td>2.14.0</td></tr><tr><td>zlib</td><td>1.2.3-3</td></tr></tbody></table>
-<p><strong>/etc/ipkg.conf</strong></p>
-<div class="codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-text codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">/etc/ipkg.conf</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">src snapshots http://openwrt.org/downloads/snapshots/$S/packages</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">dest root /</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">dest ram /tmp</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h3 class="anchor anchorWithStickyNavbar_RZ0P" id="系统工具my_tools">系统工具/my_tools<a href="https://wener.me/story/openvox-gw-inside#%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7my_tools" class="hash-link" aria-label="Direct link to 系统工具/my_tools" title="Direct link to 系统工具/my_tools">​</a></h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>name</th><th>type</th><th>desc</th></tr></thead><tbody><tr><td>add_syslog</td><td>shell</td><td>log 到 syslog</td></tr><tr><td>addkey_client.sh</td><td>shell</td><td></td></tr><tr><td>addkey_server.sh</td><td>shell</td><td></td></tr><tr><td>astmanproxy</td><td></td><td>Asterisk Manager Proxy</td></tr><tr><td>checkAsteriskProc.sh</td><td>shell</td><td>检测并启动 dahdi 和 asterisk</td></tr><tr><td>checkCapture.sh</td><td>shell</td><td>dahdi 停止 dump 给定 chanid</td></tr><tr><td>checkStartFinish.sh</td><td>shell</td><td>sleep 1000s 重启</td></tr><tr><td>checkasteriskstat</td><td></td><td></td></tr><tr><td>cluster_mode</td><td>php</td><td>配置集群模式 - master, slave, standalone</td></tr><tr><td>cluster_slave</td><td></td><td>slave 应用</td></tr><tr><td>cpuusage</td><td></td><td>CPU 使用情况 - 类似 vmstat</td></tr><tr><td>eth_server.conf</td><td></td><td></td></tr><tr><td>fetch</td><td></td><td>解密固件</td></tr><tr><td>get_backport</td><td></td><td></td></tr><tr><td>gwping</td><td></td><td>eth ping 客户端</td></tr><tr><td>gwpingd</td><td></td><td>eth_server - eth_server.conf 为配置文件</td></tr><tr><td>if_monitor</td><td></td><td></td></tr><tr><td>keeper</td><td></td><td>保持进程存在 - 类似 supervisor</td></tr><tr><td>krtpd_cli</td><td></td><td></td></tr><tr><td>led_key.ko</td><td>内核模块</td><td></td></tr><tr><td>logfile_monitor</td><td>php</td><td>日志监控</td></tr><tr><td>lstast</td><td></td><td></td></tr><tr><td>net_tool</td><td></td><td>获取网卡信息</td></tr><tr><td>ntpclient</td><td></td><td>NTP 客户端</td></tr><tr><td>play_all_led</td><td></td><td>所有 LED 亮</td></tr><tr><td>process_cdr</td><td></td><td>CDR 处理</td></tr><tr><td>readDeviceID</td><td></td><td></td></tr><tr><td>resetkey</td><td></td><td></td></tr><tr><td>restore_cfg_file</td><td></td><td>恢复 asterisk 配置文件</td></tr><tr><td>safe_append_to_file</td><td></td><td></td></tr><tr><td>safe_reboot</td><td>shell</td><td>reboot</td></tr><tr><td>set_busytone.sh</td><td>shell</td><td>fxomon.conf busytone 设置</td></tr><tr><td>set_config</td><td></td><td>配置文件操作</td></tr><tr><td>set_default</td><td></td><td></td></tr><tr><td>set_registers.sh</td><td>shell</td><td>注册 dcra</td></tr><tr><td>sys_restore</td><td></td><td></td></tr><tr><td>unpack.sh</td><td>shell</td><td>用于解压固件 - unzip, md5 checmsum, 解密, unzip</td></tr><tr><td>watchdog</td><td></td><td></td></tr><tr><td>web_language_init</td><td>php</td><td>初始化 web 的语言</td></tr></tbody></table>
-<ul>
-<li>astmanproxy
-<ul>
-<li><a href="https://github.com/davetroy/astmanproxy" target="_blank" rel="noopener noreferrer">davetroy/astmanproxy</a></li>
-</ul>
-</li>
-</ul>
-<div class="language-bash codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-bash codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 固件解密 - 类似 fetch</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">openssl enc -aes-256-cbc -d -in firmware.img -pass pass:O7r8yGv0cdlNM4lQ -out firmware.tar.gz</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 获取配置</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">/my_tools/set_config /etc/asterisk/gw/web_server.conf get option_value general port 2</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="固件">固件<a href="https://wener.me/story/openvox-gw-inside#%E5%9B%BA%E4%BB%B6" class="hash-link" aria-label="Direct link to 固件" title="Direct link to 固件">​</a></h2>
-<p>官网提供固件下载 <a href="https://www.openvox.cn/pub/firmwares" target="_blank" rel="noopener noreferrer">https://www.openvox.cn/pub/firmwares</a> , Web 界面支持上传或在线更新。</p>
-<p>固件更新上传逻辑位于 /www/cgi-bin/php/system-tools.php 。
-固件准备好后通过 /my_tools/unpack.sh 解压升级。</p>
-<p><strong>固件格式</strong></p>
-<ul>
-<li>AnalogGateway-current.bin -&gt; tar.gz
-<ul>
-<li>firmware/AnalogGateway-1.1.20.img.md5</li>
-<li>firmware/AnalogGateway-1.1.20.img - openssl enc'd data with salted password</li>
-</ul>
-</li>
-<li>AnalogGateway-1.1.20.img - 解密 -&gt; tar.gz
-<ul>
-<li>AnalogGateway.img - 应该为系统镜像</li>
-<li>key - AnalogGateway.img 的 md5 checksum</li>
-<li>u-boot.bin - bootloader</li>
-<li>upgrade.sh - 升级脚本</li>
-</ul>
-</li>
-</ul>
-<div class="language-bash codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-bash codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 下载</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">curl -O https://www.openvox.cn/pub/firmwares/Analog%20Gateway/AnalogGateway-current.bin</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 固件为 tar.gz</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">tar zxvf AnalogGateway-current.bin</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">cd firmware</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 固件经过 openssl 加密 - 解密后为 tar.tz</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">openssl enc -aes-256-cbc -d -in AnalogGateway-*.img -pass pass:O7r8yGv0cdlNM4lQ -out AnalogGateway.tar.gz</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 解压获取实际内容</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">mkdir firmware</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">tar zxvf AnalogGateway.tar.gz -C firmware</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>固件升级</strong></p>
-<p>固件升级使用 openvox 内置的自定义工具 /usr/bin/auto_update，主要涉及操作 mtd。</p>
-<div class="language-bash codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-bash codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># -i 1 - 使用 ubiblk</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">auto_update -i 1</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># -b 升级 ubook</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">auto_update -b u-boot.bin</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># -f 更新文件， -u 升级系统</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">auto_update -u -f AnalogGateway.img</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="集群模式">集群模式<a href="https://wener.me/story/openvox-gw-inside#%E9%9B%86%E7%BE%A4%E6%A8%A1%E5%BC%8F" class="hash-link" aria-label="Direct link to 集群模式" title="Direct link to 集群模式">​</a></h2>
-<p>运行模式通过 /my_tools/cluster_mode 配置。</p>
-<p><strong>slave extension</strong></p>
-<div class="language-ini codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-ini codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_general.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_endpoints.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_slave.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_macro.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_slave.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_dialmatchingrules.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"># ext = slave_password+index</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token section punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token section section-name selector" style="color:rgb(199, 146, 234)">fxs-&lt;ext&gt;-&lt;master_ip&gt;</span><span class="token section punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; #00,1,playback(Ext_number)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; #00,n,agi(getsipbinding.sh)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; #00,n,Wait(1)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; #00,n,Hangup()</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; s,1,Dial(SIP/$sip_extension-$slave_masterip)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; s,n,Hangup()</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; *1*2*3*4,1,agi(factoryreset.sh)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; *1*2*3*4,n,Hangup()</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; **,1,playback(IP_address)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; **,n,agi(geteth0ip.sh)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token section punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token section section-name selector" style="color:rgb(199, 146, 234)">sip-$sip_extension</span><span class="token section punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; _X.,1,GotoIf($["${SIP_HEADER(X-Best-Codec)}" = ""]?dial)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; _X.,n,Set(SIP_CODEC=${SIP_HEADER(X-Best-Codec)})</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; _X.,n(dial),Dial(dahdi/${i}r1/${EXTEN},$DIALTIMEOUT)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token key attr-name" style="color:rgb(255, 203, 107)">exten</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">=</span><span class="token value attr-value">&gt; _X.,n,Hangup()</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>master extension</strong></p>
-<div class="language-ini codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-ini codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_general.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_endpoints.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include sip_master.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_macro.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_fxs.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_master.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_internal.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_routing.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">;#include extensions_sipdef.conf</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">#include extensions_dialmatchingrules.conf</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="vs_usb-400">VS_USB-400<a href="https://wener.me/story/openvox-gw-inside#vs_usb-400" class="hash-link" aria-label="Direct link to VS_USB-400" title="Direct link to VS_USB-400">​</a></h2>
-<ul>
-<li>无线网关</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_RZ0P" id="系统环境-1">系统环境<a href="https://wener.me/story/openvox-gw-inside#%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83-1" class="hash-link" aria-label="Direct link to 系统环境" title="Direct link to 系统环境">​</a></h3>
-<ul>
-<li>软件版本 2.1.22</li>
-<li>硬件版本 1.0</li>
-<li>一个主控，多个模块，模块不带 CPU</li>
-<li>无线模块为 高通 Gobi 无线宽带芯片技术 - GobiNet - USB 驱动</li>
-<li>通道 STM32, 底板 MCU STM8</li>
-<li>该版本包含 frpc - 允许 openvox cloud 建立链接 - 映射了 ssh 和 web</li>
-</ul>
-<blockquote>
-<p>该版本最大的区别是模块不在是独立系统。</p>
-</blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>HW</th><th>Desc</th></tr></thead><tbody><tr><td>CPU</td><td>Intel(R) Atom(TM) CPU Z3735G @ 1.33GHz</td></tr><tr><td>Memory</td><td>1 G</td></tr><tr><td>Disk</td><td>16 G Flash</td></tr></tbody></table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>SW</th><th>Desc</th></tr></thead><tbody><tr><td>Debian</td><td>8</td></tr><tr><td>uname -a</td><td>Linux Wireless-Gateway 4.19.81 #7 SMP Thu Feb 13 08:24:02 CST 2020 i686 i386</td></tr><tr><td>Busybox</td><td>v1.22.1</td></tr><tr><td>Asterisk</td><td>1.8.20.0</td></tr><tr><td>/proc/cmdline</td><td>BOOT_IMAGE=/vmlinuz ro root=LABEL=kernel1 intel_pstate=disable quiet console=ttyS0,115200n8</td></tr></tbody></table>
-<p><strong>/proc/mtrr</strong></p>
-<div class="codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-text codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg00: base=0x0ffd00000 ( 4093MB), size=    4MB, count=1: write-protect</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg01: base=0x000000000 (    0MB), size= 1024MB, count=1: write-back</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg02: base=0x03e000000 (  992MB), size=   32MB, count=1: uncachable</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg03: base=0x03d000000 (  976MB), size=   16MB, count=1: uncachable</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg04: base=0x03ce00000 (  974MB), size=    2MB, count=1: uncachable</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">reg05: base=0x03c800000 (  968MB), size=    4MB, count=1: uncachable</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>/proc/mounts</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>dev</th><th>size</th><th>path</th><th>fs</th></tr></thead><tbody><tr><td>/dev/mmcblk0p6</td><td>487.9M</td><td>/etc/cfg</td><td>ext4</td></tr><tr><td>/dev/mmcblk0p7</td><td>487.9M</td><td>/data</td><td>ext4</td></tr><tr><td>/dev/mmcblk0p2</td><td>92.8M</td><td>/boot</td><td>ext4</td></tr><tr><td>/dev/mmcblk0p4</td><td>28.9M</td><td>/gateway</td><td>squashfs</td></tr></tbody></table>
-<p><strong>modules</strong></p>
-<ul>
-<li>GobiNet - 驱动无线模块</li>
-<li>usb_wwan</li>
-<li>cdc_acm</li>
-<li>ch341</li>
-<li>usbserial - 依赖 USB 串口</li>
-<li>cdc_ether</li>
-<li>usbnet</li>
-<li>r8152</li>
-<li>snd_pcm</li>
-<li>snd_timer</li>
-<li>i2c_hid</li>
-<li>i2c_algo_bit</li>
-<li>soundcore</li>
-<li>sdhci_acpi</li>
-<li>button</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_RZ0P" id="系统目录-1">系统目录<a href="https://wener.me/story/openvox-gw-inside#%E7%B3%BB%E7%BB%9F%E7%9B%AE%E5%BD%95-1" class="hash-link" aria-label="Direct link to 系统目录" title="Direct link to 系统目录">​</a></h3>
-<ul>
-<li>/my_tools -&gt; /gateway/my_tools</li>
-<li>/sound -&gt; /gateway/sound</li>
-<li>/webservice -&gt; /gateway/webservice</li>
-<li>/version -&gt; /gateway/version</li>
-<li>/www -&gt; /gateway/www</li>
-<li>/conf</li>
-<li>/data
-<ul>
-<li>log/
-<ul>
-<li>cdr.db</li>
-<li>smsinbox.db</li>
-<li>smsoutbox.db</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>/etc
-<ul>
-<li>cfg/ - Asteris 配置 - 独立挂载 - 可备份
-<ul>
-<li>gw/ - 网关配置
-<ul>
-<li>n2n/ - 2 层 Mesh 组网</li>
-<li>sim840w.conf - SIM 模块配置 - AT 命令之类</li>
-<li>sim6320.conf - SIM 模块配置</li>
-<li>uc15.conf - SIM 模块配置 - UC15</li>
-<li>sms.conf - 短信配置</li>
-</ul>
-</li>
-<li>cloud/ - 应该是 openvox 云平台之类的 - <a href="https://cloud.openvox.com.cn/" target="_blank" rel="noopener noreferrer">https://cloud.openvox.com.cn/</a>
-<ul>
-<li>cloud.conf</li>
-<li>frpc.ini - openvox 访问 ssh 和 web 的后门</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>udev/rules.d/
-<ul>
-<li>gobinet.rules - GobiNet 映射 - <code>/sys/class/net/gobinet*</code></li>
-<li>internet.rules - 模块内部 usbnet 映射 - 会 symlink 到 <code>/dev/opvx/</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>/tmp
-<ul>
-<li>hw_info.cfg - 硬件配置 - 由于生成 asterisk gw_gsm.conf 和 extra-channels.conf 配置</li>
-</ul>
-</li>
-<li>/usr/sbin/cloudMain</li>
-<li>/usr/sbin/cloudExternal</li>
-<li>/usr/sbin/cloudNat</li>
-<li>/gateway - 完整网关系统 - 独立挂载
-<ul>
-<li>www/ - PHP 网站</li>
-<li>my_tools/ - 工具集</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="asterisk">Asterisk<a href="https://wener.me/story/openvox-gw-inside#asterisk" class="hash-link" aria-label="Direct link to Asterisk" title="Direct link to Asterisk">​</a></h2>
-<blockquote>
-<p>不管什么版本的网关，Asterisk 的版本似乎都没有变过 - 1.8.20.0</p>
-</blockquote>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>mod</th><th>desc</th></tr></thead><tbody><tr><td>chan_extra</td><td>GSM/CDMA Telephony Driver FOR Asterisk</td></tr></tbody></table>
-<ul>
-<li>chan_extra
-<ul>
-<li>OpenVox 开发的无线模块 - GSM, CDMA 和新的 LTE 均使用该模块</li>
-<li>opvxg4xx 驱动提供支持</li>
-<li>配置文件 extra-channels.conf, chan_extra.conf</li>
-<li>GSM, CDMA 基于 DAHDi</li>
-<li>4G LTE 基于 GobiNet 内核驱动</li>
-<li>驱动下载 <a href="https://www.openvox.cn/pub/misc/GSM/" target="_blank" rel="noopener noreferrer">https://www.openvox.cn/pub/misc/GSM/</a></li>
-</ul>
-</li>
-</ul>
-<div class="language-bash codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-bash codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain">modprobe opvxg4xx</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<div class="language-bash codeBlockContainer_jFUc theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_L3we"><pre tabindex="0" class="prism-code language-bash codeBlock_hwsD thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_Mi4n"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># Asterisk 命令</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">gsm show spans</span><br></span></code></pre><div class="buttonGroup_w1ja"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_kkEF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_cQeu"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_I72V"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
-            <category>嵌入式</category>
-            <category>系统</category>
             <category>VoIP</category>
         </item>
     </channel>
