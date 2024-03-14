@@ -462,7 +462,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </ul></div></div>
 <h2 class="anchor anchorWithStickyNavbar_RZ0P" id="v4">v4<a href="https://wener.me/story/crm-trails#v4" class="hash-link" aria-label="Direct link to v4" title="Direct link to v4">​</a></h2>
 <ul>
-<li>2022.6 -&gt;</li>
+<li>2022.6 -&gt; 2022.11</li>
 <li>后端
 <ul>
 <li>确定了要优先 GRPC，且使用标准 Schema。
@@ -538,6 +538,57 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_RZ0P" id="v5">v5<a href="https://wener.me/story/crm-trails#v5" class="hash-link" aria-label="Direct link to v5" title="Direct link to v5">​</a></h2>
+<ul>
+<li>2022.11 -&gt;</li>
+<li>方式的调整
+<ul>
+<li>不只是独立于业务单纯的思考怎么做 CRM - 没有任何意义/产出的东西不可用</li>
+<li>业务层面将以前的思路以 DB Schema 的方式沉淀</li>
+<li>贴合现实做一些实际的事情</li>
+</ul>
+</li>
+<li>后端
+<ul>
+<li>RPC over NATS
+<ul>
+<li>简单易用</li>
+<li>能实现多租户</li>
+</ul>
+</li>
+<li>自定义 RPC
+<ul>
+<li>弱 Schema - 一个人维护不过来</li>
+</ul>
+</li>
+<li>重新定义分层
+<ul>
+<li>DB -&gt; Entity -&gt; EntityService -&gt; RemoteService -&gt; Controller, tRPC, GraphQL</li>
+<li>层次更多，但是更清晰</li>
+<li>改动相对独立，互不影响</li>
+</ul>
+</li>
+<li>依然全面的 NodeJS/TS/NextJS/NestJS</li>
+<li>尝试更加轻量的服务 - HonoJS</li>
+<li>尝试更加轻量的前端 - Vite
+<ul>
+<li>不能 SSR/SSG/Server Action</li>
+<li>添加多个页面相对麻烦</li>
+</ul>
+</li>
+<li>尝试 Typescript 生成 zod/typebox - Single-Source-Of-Truth</li>
+</ul>
+</li>
+<li>前端
+<ul>
+<li>大部分页面直接使用了 v4 的内容 - 逻辑结构上有一定调整</li>
+<li>证明 daisyui+tailwindcss 的移植性的确很好</li>
+<li>尝试引入了 shadcn</li>
+<li>核心功能能够做到模块化</li>
+<li>尝试重新恢复多窗口</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
