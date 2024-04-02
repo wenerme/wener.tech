@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[88654],{96160:e=>{e.exports=JSON.parse('{"label":"ERP","permalink":"/notes/tags/erp","allTagsPath":"/notes/tags","count":1,"items":[{"id":"dev/design/design-erp","title":"Design ERP","description":"\u670d\u52a1\u5206\u5c42","permalink":"/notes/dev/design/erp"}],"unlisted":false}')}}]);
