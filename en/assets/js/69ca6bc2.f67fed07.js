@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[1384],{65450:e=>{e.exports=JSON.parse('{"label":"Ubuntu","permalink":"/en/notes/tags/ubuntu","allTagsPath":"/en/notes/tags","count":1,"items":[{"id":"ai/ml/ml-setup","title":"ML Setup","description":"- Ubuntu 24.04 LTS","permalink":"/en/notes/ai/ml/setup"}],"unlisted":false}')}}]);
