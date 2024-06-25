@@ -139,20 +139,20 @@
 </ol>
 <p><strong>不适用场景</strong></p>
 <ol>
-<li>机器学习 - ubuntu/debian 是最好的 - 最新 Linux 开始要集成 Navdia 驱动，情况会有所好转，但 Nvidia 官方明确不会支持 Alpine</li>
-<li>商务用桌面系统 - 默认 xface - <em>生态</em> 和体验没有 ubuntu 好</li>
+<li>机器学习 - ubuntu/debian 是最好的 - 最新 Linux 开始要集成 Nvidia 驱动，情况会有所好转，目前 Nvidia 官方尚未正式支持Alpine。</li>
+<li>商务用桌面系统 - 默认 xfce - <em>生态</em> 和体验没有 ubuntu 好</li>
 <li>定制化嵌入式设备 - alpine 支持的 arch 远没有 debian 的多，如果 arch 支持可以考虑 alpine</li>
 </ol>
-<p><strong>Note Convinced?</strong></p>
+<p><strong>Not Convinced?</strong></p>
 <ul>
 <li>轻量级
 <ul>
 <li>最小安装 5MB</li>
-<li>大部分都是静态链接</li>
 <li>musl</li>
 <li>openrc</li>
 </ul>
 </li>
+<li>部分包提供静态编译二进制，可在非 Alpine 环境使用</li>
 <li>稳定滚动升级
 <ul>
 <li>有稳定版和最新版</li>
