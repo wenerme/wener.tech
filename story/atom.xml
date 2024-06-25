@@ -126,9 +126,25 @@
 <p>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</p>
 <p>Alpine Linux 是一个基于 musl libc 和 busybox, 面向安全, 轻量级的 Linux 发布版.</p>
 </blockquote>
-<h2 class="anchor anchorWithStickyNavbar_QKFm" id="为什么">为什么<a href="https://wener.me/story/why-alpine#%E4%B8%BA%E4%BB%80%E4%B9%88" class="hash-link" aria-label="为什么的直接链接" title="为什么的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_QKFm" id="why">为什么<a href="https://wener.me/story/why-alpine#why" class="hash-link" aria-label="为什么的直接链接" title="为什么的直接链接">​</a></h2>
+<p>small footprint, non-systemd, fast enough, good community, sane defaults.</p>
+<p>阿里云、腾讯云、物理服务器、虚拟机、容器都适用 AlpineLinux.</p>
+<ol>
+<li>环境都一样，使用各方面熟悉，熟练</li>
+<li>小/快 - 阿里云 ECS 只需要上传一个 几十 MB 的镜像即可，从 0 安装只需要 3 分钟</li>
+<li>简单 - 可以由内而外的了解所有 alpine 细节，对于 debian 和 centos 我都做不到，因为太复杂</li>
+<li>跟上时代 - 内核 一般是最近的 lts，能快速利用上新的内核特性，比如现在 linux 内核支持 io_uring, ntfs</li>
+<li>快速更新 - 安全问题响应非常快 - 因为使用面非常广</li>
+<li>衍生业务集成系统 - 系统预装一些软件和服务 - 例如: k3sos</li>
+</ol>
+<p><strong>不适用场景</strong></p>
+<ol>
+<li>机器学习 - ubuntu/debian 是最好的 - 最新 Linux 开始要集成 Navdia 驱动，情况会有所好转，但 Nvidia 官方明确不会支持 Alpine</li>
+<li>商务用桌面系统 - 默认 xface - <em>生态</em> 和体验没有 ubuntu 好</li>
+<li>定制化嵌入式设备 - alpine 支持的 arch 远没有 debian 的多，如果 arch 支持可以考虑 alpine</li>
+</ol>
+<p><strong>Note Convinced?</strong></p>
 <ul>
-<li>开源</li>
 <li>轻量级
 <ul>
 <li>最小安装 5MB</li>
@@ -170,6 +186,7 @@
 <ul>
 <li>包非常多</li>
 <li>兼容良好</li>
+<li>社区活跃</li>
 </ul>
 </li>
 <li>支持较多平台
@@ -202,8 +219,16 @@
 <li>musl libc 可能有兼容问题, 有时候需要补丁
 <ul>
 <li>但越来越多的开发者也都会做兼容了</li>
+<li><a href="https://wener.me/notes/os/linux/libc/musl/faq" target="_blank" rel="noopener noreferrer">常见的 Musl 问题</a></li>
 </ul>
 </li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_QKFm" id="faq">使用过程常见问题<a href="https://wener.me/story/why-alpine#faq" class="hash-link" aria-label="使用过程常见问题的直接链接" title="使用过程常见问题的直接链接">​</a></h2>
+<div class="language-bash codeBlockContainer_zTdX theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_LawP"><pre tabindex="0" class="prism-code language-bash codeBlock_fWVI thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_n6dK"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 建议安装基础包，对新人使用相对友好</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">apk add curl busybox-extras file nano libc6-compat gcompat bash</span><br></span></code></pre><div class="buttonGroup_TrSR"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_xs76" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_eseE"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_pHuf"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li><a href="https://wener.me/notes/os/alpine/faq" target="_blank" rel="noopener noreferrer">使用 Alpine 的常见问题</a></li>
+<li>制作各种 Docker 可参考 <a href="https://github.com/wenerme/dockerfiles" target="_blank" rel="noopener noreferrer">wenerme/dockerfiles</a></li>
+<li>针对 Alpine 的各种 Ansible 任务 <a href="https://github.com/wenerme/ansible-collection-wenerme-alpine" target="_blank" rel="noopener noreferrer">wenerme/ansible-collection-wenerme-alpine</a></li>
 </ul>]]></content>
         <category label="DevOps" term="DevOps"/>
         <category label="Alpine" term="Alpine"/>
