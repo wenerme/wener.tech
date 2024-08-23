@@ -573,10 +573,11 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
             <link>https://wener.me/en/story/crm-trails</link>
             <guid>https://wener.me/en/story/crm-trails</guid>
             <pubDate>Wed, 17 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[v1]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_QKFm" id="v1">v1<a href="https://wener.me/en/story/crm-trails#v1" class="hash-link" aria-label="Direct link to v1" title="Direct link to v1">​</a></h2>
+            <description><![CDATA[| v   | date              |]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>v</th><th>date</th></tr></thead><tbody><tr><td>v1</td><td>2019.11 - 2021.01</td></tr><tr><td>v2</td><td>2020.01 - 2020.06</td></tr><tr><td>v3</td><td>2020.11 - 2022.07</td></tr><tr><td>v4</td><td>2022.06 - 2022.11</td></tr><tr><td>v5</td><td>2022.11 - 2023.03</td></tr><tr><td>v6</td><td>2023.03 -</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_QKFm" id="v1">v1<a href="https://wener.me/en/story/crm-trails#v1" class="hash-link" aria-label="Direct link to v1" title="Direct link to v1">​</a></h2>
 <ul>
-<li>后端 - Java - 2019.11 - 2021.1</li>
+<li>后端 - Java - 2019.11 - 2021.01</li>
 <li>前端 - NextJS v9 + Antd - 2019.11 - 2021.3
 <ul>
 <li>@reduxjs/toolkit</li>
@@ -588,7 +589,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 堆砌了一些基础前端组件。前端开发能力尚不成熟。</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_QKFm" id="v2">v2<a href="https://wener.me/en/story/crm-trails#v2" class="hash-link" aria-label="Direct link to v2" title="Direct link to v2">​</a></h2>
 <ul>
-<li>2020.1 - 2020.6</li>
+<li>2020.01 - 2020.06</li>
 <li>后端 - Node - nestjs
 <ul>
 <li>nestjs</li>
@@ -618,7 +619,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </ul></div></div>
 <h2 class="anchor anchorWithStickyNavbar_QKFm" id="v3">v3<a href="https://wener.me/en/story/crm-trails#v3" class="hash-link" aria-label="Direct link to v3" title="Direct link to v3">​</a></h2>
 <ul>
-<li>后端 - Go - 2020.11 - 2022.7
+<li>后端 - Go - 2020.11 - 2022.07
 <ul>
 <li>gorm + restful - 前期</li>
 <li>ent + gqlgen - 中期</li>
@@ -677,7 +678,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </ul></div></div>
 <h2 class="anchor anchorWithStickyNavbar_QKFm" id="v4">v4<a href="https://wener.me/en/story/crm-trails#v4" class="hash-link" aria-label="Direct link to v4" title="Direct link to v4">​</a></h2>
 <ul>
-<li>2022.6 -&gt; 2022.11</li>
+<li>2022.06 -&gt; 2022.11</li>
 <li>后端
 <ul>
 <li>确定了要优先 GRPC，且使用标准 Schema。
@@ -737,7 +738,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </li>
 <li>前端
 <ul>
-<li>daisyui+tailwindcss</li>
+<li>daisyui+tailwindcss - 放弃 <del>Blueprint</del></li>
 <li>不再直接选择成熟的 UI 框架，而是选择基于 CSS 的样式库</li>
 <li>daisyui 提供了一套命名 class 的方式 - 有 Theme</li>
 <li>确定 管理功能优先于用户功能</li>
@@ -758,7 +759,7 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_QKFm" id="v5">v5<a href="https://wener.me/en/story/crm-trails#v5" class="hash-link" aria-label="Direct link to v5" title="Direct link to v5">​</a></h2>
 <ul>
-<li>2022.11 -&gt;</li>
+<li>2022.11 -&gt; 2023.03</li>
 <li>方式的调整
 <ul>
 <li>不只是独立于业务单纯的思考怎么做 CRM - 没有任何意义/产出的东西不可用</li>
@@ -804,6 +805,96 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 <li>尝试引入了 shadcn</li>
 <li>核心功能能够做到模块化</li>
 <li>尝试重新恢复多窗口</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_QKFm" id="v6">v6<a href="https://wener.me/en/story/crm-trails#v6" class="hash-link" aria-label="Direct link to v6" title="Direct link to v6">​</a></h2>
+<ul>
+<li>2023.3 -&gt;</li>
+<li>基于 v5 大致内容不变的情况下调整以提升开发效率</li>
+<li>主要调整内容
+<ul>
+<li>API 调整 - trpc -&gt; GQL</li>
+<li>结构选型调整 - 轻量化, 开发效率优先</li>
+</ul>
+</li>
+<li>调整内容
+<ul>
+<li>~~Nats RPC + trpc ~~ -&gt; GraphQL
+<ul>
+<li>trpc 内容多了过后类型推导太慢</li>
+<li>GraphQL 直接对客户端保留
+<ul>
+<li>避免要求通过 RPC+trpc 对客户端</li>
+<li>减少开发量</li>
+</ul>
+</li>
+<li>RPC 保留为对服务端</li>
+</ul>
+</li>
+<li>NextJS -&gt; Vite - 纯静态前端 console
+<ul>
+<li>开发反映要快得多</li>
+<li>现在的 NextJS 不适合做后台，不适合做太过动态的项目</li>
+<li>Vite HMR 体验要好得多</li>
+</ul>
+</li>
+<li>~~fastify + NestJS Controller ~~ -&gt; Hono
+<ul>
+<li>保留 NestJS 作为 IoC 容器</li>
+<li>Hono 简单容易维护</li>
+<li>缺点是 Hono OpenAPI 使用 zod-openapi
+<ul>
+<li>没 NestJS Controller 那么好用</li>
+<li>但 可以 share schema 给前端 - 不过使用了 GraphQL Codegen 一般也不需要</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>GraphQL 使用 type-graphql+yoga+urql</li>
+<li>大量引入 mixin 来抽象业务逻辑
+<ul>
+<li>ORM 层 <a href="https://github.com/wenerme/wode/blob/main/packages/nestjs/src/entity/mixins/index.ts" target="_blank" rel="noopener noreferrer">https://github.com/wenerme/wode/blob/main/packages/nestjs/src/entity/mixins/index.ts</a></li>
+<li>GQL 层 <a href="https://github.com/wenerme/wode/blob/main/packages/nestjs/src/type-graphql/mixins/index.ts" target="_blank" rel="noopener noreferrer">https://github.com/wenerme/wode/blob/main/packages/nestjs/src/type-graphql/mixins/index.ts</a></li>
+</ul>
+</li>
+<li>Golang -&gt; Bun
+<ul>
+<li>将最后依赖 Golang 的 企业微信会话内容存档转为 Bun</li>
+<li>bun:ffi 能很好的和 c interop
+<ul>
+<li><a href="https://github.com/wenerme/wode/blob/main/packages/client/src/wecom/archive/bun/WeWorkFinanceClient.ts" target="_blank" rel="noopener noreferrer">WeWorkFinanceClient.ts</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>领域开发
+<ul>
+<li>Follow 固定的 schema 模式 <a href="https://wener.me/notes/dev/design/schema" target="_blank" rel="noopener noreferrer">https://wener.me/notes/dev/design/schema</a></li>
+<li>逐渐固化大的业务框架 <a href="https://wener.me/notes/dev/design/erp" target="_blank" rel="noopener noreferrer">https://wener.me/notes/dev/design/erp</a></li>
+<li>逐步引入一些公共的业务逻辑</li>
+</ul>
+</li>
+<li>结果
+<ul>
+<li>目前差不多的前后端部署了 3+ 套</li>
+<li>固化下来差不多的前后端框架
+<ul>
+<li>前端 <a href="https://github.com/wenerme/wode/tree/main/packages/console" target="_blank" rel="noopener noreferrer">https://github.com/wenerme/wode/tree/main/packages/console</a></li>
+<li>后端 <a href="https://github.com/wenerme/wode/tree/main/packages/nestjs" target="_blank" rel="noopener noreferrer">https://github.com/wenerme/wode/tree/main/packages/nestjs</a></li>
+</ul>
+</li>
+<li>外部集成 <a href="https://github.com/wenerme/wode/tree/main/packages/client" target="_blank" rel="noopener noreferrer">https://github.com/wenerme/wode/tree/main/packages/client</a></li>
+</ul>
+</li>
+<li>接下来
+<ul>
+<li>抽取更多公共业务逻辑</li>
+<li>引入更多业务域</li>
+<li>文件处理 - 类似网盘</li>
+<li>更多外部服务集成</li>
 </ul>
 </li>
 </ul>]]></content:encoded>
