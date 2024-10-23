@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[7988],{97696:e=>{e.exports=JSON.parse('{"label":"formatter","permalink":"/notes/tags/formatter","allTagsPath":"/notes/tags","count":1,"items":[{"id":"languages/python/black","title":"black","description":"- psf/black","permalink":"/notes/languages/python/black"}],"unlisted":false}')}}]);
