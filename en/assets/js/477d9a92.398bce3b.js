@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[59040],{66184:e=>{e.exports=JSON.parse('{"label":"Redis","permalink":"/en/story/tags/redis","allTagsPath":"/en/story/tags","count":2,"unlisted":false}')}}]);

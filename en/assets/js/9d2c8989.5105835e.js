@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[31048],{48888:e=>{e.exports=JSON.parse('{"label":"WeChat","permalink":"/en/story/tags/we-chat","allTagsPath":"/en/story/tags","count":1,"unlisted":false}')}}]);

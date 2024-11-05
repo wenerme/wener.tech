@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[79144],{72280:e=>{e.exports=JSON.parse('{"label":"PostgreSQL","permalink":"/en/story/tags/postgre-sql","allTagsPath":"/en/story/tags","count":1,"unlisted":false}')}}]);

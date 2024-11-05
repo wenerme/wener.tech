@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[17844],{31008:e=>{e.exports=JSON.parse('{"label":"CRM","permalink":"/en/story/tags/crm","allTagsPath":"/en/story/tags","count":2,"unlisted":false}')}}]);

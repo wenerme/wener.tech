@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[29292],{56808:e=>{e.exports=JSON.parse('{"label":"Firecracker","permalink":"/en/story/tags/firecracker","allTagsPath":"/en/story/tags","count":1,"unlisted":false}')}}]);

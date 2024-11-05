@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([[12368],{12368:(e,s,w)=>{w.r(s)}}]);
