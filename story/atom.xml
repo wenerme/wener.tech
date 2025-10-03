@@ -12,10 +12,9 @@
         <id>https://wener.me/story/function-and-interface</id>
         <link href="https://wener.me/story/function-and-interface"/>
         <updated>2025-10-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[工具=工+具]]></summary>
-        <content type="html"><![CDATA[<p>工具=工+具</p>
-<p>我们每天都在使用工具，但很少思考“工具”这个词的本质。
-将它拆开来看，工具是 “工” 与 “具” 的结合。这是一个理解我们所创造的一切的强大模型。</p>
+        <summary type="html"><![CDATA[如果把工具看作是工与具。]]></summary>
+        <content type="html"><![CDATA[<p>如果把工具看作是工与具。</p>
+<p>将它拆开来看，工具是 “工” 与 “具” 的结合。这是一个理解我们所创造的一切的强大模型。</p>
 <h2 class="anchor anchorWithStickyNavbar_gXJ2" id="工">工<a href="https://wener.me/story/function-and-interface#%E5%B7%A5" class="hash-link" aria-label="Direct link to 工" title="Direct link to 工">​</a></h2>
 <p>工 - 工作、劳动、技巧、能力、标准</p>
 <p>它不是指那个物件本身，而是指使用物件所要达成的“事”或所蕴含的“巧”。</p>
@@ -75,12 +74,32 @@
 </ul>
 <p>在一个追求极致功能和性能的“工程师思维”里，“工”是核心。
 但在一个以用户为中心的“产品思维”里，确保“工”的价值能通过“具”顺畅地传递出去，才是通往成功的关键。</p>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="工-vs-具">工 vs 具<a href="https://wener.me/story/function-and-interface#%E5%B7%A5-vs-%E5%85%B7" class="hash-link" aria-label="Direct link to 工 vs 具" title="Direct link to 工 vs 具">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="工与具--function-and-interface">工与具 = Function and Interface<a href="https://wener.me/story/function-and-interface#%E5%B7%A5%E4%B8%8E%E5%85%B7--function-and-interface" class="hash-link" aria-label="Direct link to 工与具 = Function and Interface" title="Direct link to 工与具 = Function and Interface">​</a></h2>
 <ul>
-<li>好界面 (好具) + 好功能 (好工) = 理想的产品。 价值最大化。</li>
-<li>坏界面 (坏具) + 好功能 (好工) = 璞玉，但难以触及。</li>
-<li>好界面 (好具) + 坏功能 (坏工) = 金玉其外，败絮其中。</li>
-<li>坏界面 (坏具) + 坏功能 (坏工) = 电子垃圾。</li>
+<li>工 = Function
+<ul>
+<li>它关乎“为什么”和“做什么” (Why &amp; What it does)。</li>
+<li>它是内在的逻辑、目的、能力、过程。</li>
+<li>在软件中，它就是后端逻辑、算法、数据处理、业务规则。</li>
+<li>它是工具的灵魂和价值核心，但本身是抽象的、不可见的。</li>
+</ul>
+</li>
+<li>具 = Interface
+<ul>
+<li>它关乎“是什么”和“怎么用” (What it is &amp; How to use it)。</li>
+<li>它是外在的形态、载体、交互点、呈现方式。</li>
+<li>在软件中，它就是图形用户界面(GUI)、应用程序编程接口(API)、命令行(CLI)。</li>
+<li>在硬件中，它就是产品的外观、按钮、屏幕。</li>
+<li>它是功能的<strong>身体和表达形式</strong>，是连接用户和功能的<strong>唯一桥梁</strong>。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="function-and-interface">Function and Interface<a href="https://wener.me/story/function-and-interface#function-and-interface" class="hash-link" aria-label="Direct link to Function and Interface" title="Direct link to Function and Interface">​</a></h2>
+<ul>
+<li>好界面 + 好功能 = 理想的产品。 价值最大化。</li>
+<li>坏界面 + 好功能 = 璞玉，但难以触及。</li>
+<li>好界面 + 坏功能 = 金玉其外，败絮其中。</li>
+<li>坏界面 + 坏功能 = 电子垃圾。</li>
 </ul>
 <p>“用户界面”不是结果</p>
 <ul>
@@ -104,44 +123,43 @@
 <li>守门人： 决定了用户能不能、愿不愿进来体验核心功能。</li>
 <li>放大器： 决定了核心功能的价值是被增强了，还是被削弱了。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="工和具--function-and-interface">工和具 = Function and Interface<a href="https://wener.me/story/function-and-interface#%E5%B7%A5%E5%92%8C%E5%85%B7--function-and-interface" class="hash-link" aria-label="Direct link to 工和具 = Function and Interface" title="Direct link to 工和具 = Function and Interface">​</a></h2>
-<ul>
-<li>工 = Function
-<ul>
-<li>它关乎“为什么”和“做什么” (Why &amp; What it does)。</li>
-<li>它是内在的逻辑、目的、能力、过程。</li>
-<li>在软件中，它就是后端逻辑、算法、数据处理、业务规则。</li>
-<li>它是工具的灵魂和价值核心，但本身是抽象的、不可见的。</li>
-</ul>
-</li>
-<li>具 = Interface
-<ul>
-<li>它关乎“是什么”和“怎么用” (What it is &amp; How to use it)。</li>
-<li>它是外在的形态、载体、交互点、呈现方式。</li>
-<li>在软件中，它就是图形用户界面(GUI)、应用程序编程接口(API)、命令行(CLI)。</li>
-<li>在硬件中，它就是产品的外观、按钮、屏幕。</li>
-<li>它是功能的<strong>身体和表达形式</strong>，是连接用户和功能的<strong>唯一桥梁</strong>。</li>
-</ul>
-</li>
-</ul>
-<p>它几乎可以解释人类创造的所有事物：</p>
-<ul>
-<li>一本书的思想（工）和它的文字/排版（具）。</li>
-<li>一辆汽车的动力系统（工）和它的车身/方向盘（具）。</li>
-<li>一条法律的立法精神（工）和它的具体条文（具）。</li>
-</ul>
 <h2 class="anchor anchorWithStickyNavbar_gXJ2" id="结论">结论<a href="https://wener.me/story/function-and-interface#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
 <ul>
-<li>“工” 与 “具” 的关系不是相加，而是相乘。
-<ul>
-<li>皮之不存，毛将焉附</li>
-<li><code>最终价值 = 功能的深度 × 界面的可用性</code></li>
-</ul>
-</li>
 <li>创造一个好的工具，本质上就是为卓越的“功能”寻找最恰当的“界面”。</li>
 <li>无论是代码、产品，还是一个团队、一套流程，这个“工与具”的思维模型都同样适用。它是创造与设计的核心。</li>
 </ul>]]></content>
         <category label="Thoughts" term="Thoughts"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《我把我的矜持都给了她》：第二章 - 故事的重新开始]]></title>
+        <id>https://wener.me/story/here-my-love-ch2</id>
+        <link href="https://wener.me/story/here-my-love-ch2"/>
+        <updated>2025-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记忆的片段最是挠人。]]></summary>
+        <content type="html"><![CDATA[<p>记忆的片段最是挠人。</p>
+<p>回忆里模糊的片段，没有前因的后果，没有起承的转合，甚至连当初跌宕的起伏，心潮的澎湃都已经平静。</p>
+<p>只剩下片段，仍旧有一些脸庞。</p>
+<p>剩下的，就像是故事的注脚，没有主角但似乎又是牵连的一系列故事。</p>
+<p>一直以来的我主张是活在当下。</p>
+<p>但回忆美妙的是，能从一个第三者的视角，去重新审视那些曾经发生的故事。</p>
+<p>但早已忘记是怎么开始的，不过，索性是有个合适的结尾。</p>
+<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="开始的故事">开始的故事<a href="https://wener.me/story/here-my-love-ch2#%E5%BC%80%E5%A7%8B%E7%9A%84%E6%95%85%E4%BA%8B" class="hash-link" aria-label="Direct link to 开始的故事" title="Direct link to 开始的故事">​</a></h2>
+<p>时间回到初中时代，新鲜和无聊的信息充斥着每天重复的生活。</p>
+<p>而这个男孩有个简单的期盼：每天能看到她。</p>
+<p>女孩很喜欢笑，这应该是男孩记忆最深刻的部分。她的笑容像是阳光，能照亮整个教室。</p>
+<p>男孩很傻，只希望能尽量靠近她，即便是什么都没能说。</p>
+<p>男孩很傻，只希望能和她坐在一起，即便是什么都不可能做。</p>
+<p>男孩很傻，只希望能和她一起放学，即便是什么都不可能聊。</p>
+<p>但唯一能做的，只能是每天看到她，则已经很满足了。</p>
+<p>男孩总是喜欢自持矜持，也或许她并不会主动。</p>
+<p>一天天这样过这，从未想过故事会有转折，只需要这样的美好生活一直延续，不，这对他来说就是美好的。</p>
+<p>原来，他从来没在脑子里出现过喜欢两个字，因为他从来没想过要拥有她。</p>
+<p>原来，他从来没意识到，或许他曾经喜欢过她。</p>
+<p>原来，他真的很傻，但这却很美好。</p>
+<p>他说他从来没有后悔，美好是需要回头看才能发现的。</p>
+<p>原来，他真的很傻。</p>]]></content>
+        <category label="我把我的矜持都给了她" term="我把我的矜持都给了她"/>
+        <category label="故事" term="故事"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解密 ClassFinal 加密的 Java Jar 包]]></title>
@@ -597,7 +615,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="其他无感全局代理的方式">其他无感全局代理的方式<a href="https://wener.me/story/sni-proxy#%E5%85%B6%E4%BB%96%E6%97%A0%E6%84%9F%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86%E7%9A%84%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 其他无感全局代理的方式" title="Direct link to 其他无感全局代理�的方式">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="其他无感全局代理的方式">其他无感全局代理的方式<a href="https://wener.me/story/sni-proxy#%E5%85%B6%E4%BB%96%E6%97%A0%E6%84%9F%E5%85%A8%E5%B1%80%E4%BB%A3%E7%90%86%E7%9A%84%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 其他无感全局代理的方式" title="Direct link to 其他无感全局代理的方式">​</a></h2>
 <ol>
 <li>修改网关，tproxy - 无感，但是重新部署 dhcp，替代路由作为网关</li>
 <li>在 WiFi+Lan 的节点上，将 WiFi 配置为走代理，连 WiFi 则走代理，增加一个 lan 不修改现有。</li>
@@ -2333,355 +2351,6 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 <li><a href="https://dba.stackexchange.com/a/258986/234272" target="_blank" rel="noopener noreferrer">https://dba.stackexchange.com/a/258986/234272</a></li>
 </ul>]]></content>
         <category label="PostgreSQL" term="PostgreSQL"/>
-        <category label="DevOps" term="DevOps"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[K3S vs K0S]]></title>
-        <id>https://wener.me/story/k3s-vs-k0s</id>
-        <link href="https://wener.me/story/k3s-vs-k0s"/>
-        <updated>2021-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[| vs.               | k0s                               | k3s                                   |]]></summary>
-        <content type="html"><![CDATA[<table><thead><tr><th>vs.</th><th>k0s</th><th>k3s</th></tr></thead><tbody><tr><td>since</td><td>2020-06</td><td>2019-03</td></tr><tr><td>by</td><td>Mirants</td><td>Rancher/SUSE</td></tr><tr><td>Governance</td><td>Mirants</td><td>CNCF</td></tr><tr><td>Github</td><td><a href="https://github.com/k0sproject/k0s" target="_blank" rel="noopener noreferrer">k0sproject/k0s</a></td><td><a href="https://github.com/k3s-io/k3s" target="_blank" rel="noopener noreferrer">k3s-io/k3s</a></td></tr><tr><td>Stars</td><td><a href="https://github.com/k0sproject/k0s" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/github/stars/k0sproject/k0s" alt="" class="img_E2o6"></a></td><td><a href="https://github.com/k3s-io/k3s" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/github/stars/k3s-io/k3s" alt="" class="img_E2o6"></a></td></tr><tr><td>Issues</td><td><a href="https://github.com/k0sproject/k0s" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/github/issues/k0sproject/k0s" alt="" class="img_E2o6"></a></td><td><a href="https://github.com/k3s-io/k3s" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/github/issues/k3s-io/k3s" alt="" class="img_E2o6"></a></td></tr><tr><td>CNI</td><td>kube-router,calico</td><td>flannel</td></tr><tr><td>CRI</td><td>containerd</td><td>containerd</td></tr><tr><td>CSI</td><td>OpenEBS</td><td>local-path-provisioner</td></tr><tr><td>Windows</td><td>✅ - calico</td><td>❌</td></tr><tr><td>Arch</td><td>amd64,arm,arm64</td><td>amd64,arm,arm64</td></tr><tr><td>LoadBalancer</td><td>n/a</td><td>klipper-lb</td></tr><tr><td>Ingress</td><td>n/a</td><td>traefik</td></tr><tr><td>Controller-Worker</td><td><a href="https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/" target="_blank" rel="noopener noreferrer">konnectivity</a></td><td><a href="https://github.com/rancher/remotedialer" target="_blank" rel="noopener noreferrer">remotedialer</a> - WebSocket 反向代理</td></tr><tr><td>文档</td><td>⭐️⭐️</td><td>⭐️⭐️</td></tr><tr><td>成熟</td><td>⭐️⭐️</td><td>⭐️⭐️⭐️</td></tr><tr><td>国内环境友好</td><td>⭐️</td><td>⭐️⭐️⭐️</td></tr><tr><td>Pod CIDR</td><td>10.244.0.0/16</td><td>10.42.0.0/16</td></tr><tr><td>Service CIDR</td><td>10.96.0.0/12</td><td>10.43.0.0/16</td></tr><tr><td>CoreDNS</td><td>10.96.0.10</td><td>10.43.0.10</td></tr><tr><td>configuration</td><td>/etc/k0s/k0s.yaml</td><td>/etc/rancher/k3s/config.yaml</td></tr><tr><td>registry</td><td>/etc/k0s/k0s.yaml</td><td>/etc/rancher/k3s/registry.yaml</td></tr><tr><td>data-dir</td><td>/var/lib/k0s</td><td>/var/lib/rancher/k3s</td></tr><tr><td>bin-dir</td><td>/var/lib/k0s/bin</td><td>/var/lib/rancher/k3s/data/current</td></tr><tr><td>kubeconfig</td><td>/var/lib/k0s/pki/admin.conf</td><td>/etc/rancher/k3s/k3s.yaml</td></tr><tr><td>manifest</td><td>/var/lib/k0s/manifests</td><td>/var/lib/rancher/k3s/server/manifests</td></tr><tr><td>local storage</td><td>/var/openebs/local</td><td>/var/lib/rancher/k3s/storage/</td></tr><tr><td>服务运行方式</td><td>supervisor - 独立多进程</td><td>embeded - 单进程</td></tr><tr><td>containerd</td><td>bundled</td><td>系统/bundled</td></tr></tbody></table>
-<ul>
-<li><a href="https://wener.me/notes/devops/kubernetes/distro/k0s" target="_blank" rel="noopener noreferrer">k0s</a>
-<ul>
-<li>CIS security benchmark</li>
-<li>符合 FIPS 140-2 要求</li>
-<li>bundled
-<ul>
-<li>iptables, containerd, ctr, runc, etcd, kine</li>
-<li>openebs
-<ul>
-<li>openebs-hostpath -&gt; /var/openebs/local</li>
-</ul>
-</li>
-<li>kube-router</li>
-<li>konnectivity</li>
-<li>helm-controller</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://wener.me/notes/devops/kubernetes/distro/k3s" target="_blank" rel="noopener noreferrer">k3s</a>
-<ul>
-<li>CNCF 项目 - 脱离了 rancher</li>
-<li>bundled
-<ul>
-<li>containerd, ctr, runc, etcd, kine</li>
-<li>helm-controller - 支持部署 helm chart, CDR 控制</li>
-<li>traefik - 提供 ingress 能力 - 通过 helm 部署</li>
-<li>local-path-provisioner - 提供基于本地目录的存储类
-<ul>
-<li>默认 /var/lib/rancher/k3s/storage</li>
-</ul>
-</li>
-<li>klipper-lb - 基于 iptable 转发的负载均衡</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<div class="theme-admonition theme-admonition-caution admonition_Y08F alert alert--warning"><div class="admonitionHeading_t1cr"><span class="admonitionIcon_hfau"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent__HUn"><ul>
-<li>k3s 默认包含较多组件，部署后 可使用性 更高，但部分组件（ traefik,klipper-lb,local-path-provisioner ）不建议生产使用，提供这些组件更多是为了保证功能完整，开箱即用。</li>
-<li>使用 k3s 不推荐使用内置 traefik 和 klipper-lb
-<ul>
-<li>ingress 建议自行安装 - 比较重要的核心组件</li>
-<li>建议使用 metallb 替代 klipper-lb</li>
-</ul>
-</li>
-<li>因为 Controller-Worker 网络不同，k3s 和 k0s 无法混合使用</li>
-</ul></div></div>
-<p><strong>命令对比</strong></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>k0s</th><th>k3s</th></tr></thead><tbody><tr><td>k0s systinfo</td><td>./contrib/util/check-config.sh</td></tr><tr><td>k0s backup</td><td>k3s etcd-snapshot</td></tr><tr><td>k0s restore</td><td>k3s server --cluster-reset-restore-path</td></tr><tr><td>k0s controller</td><td>k3s server</td></tr><tr><td>k0s worker</td><td>k3s agent</td></tr><tr><td>n/a</td><td>k3s crictl</td></tr><tr><td>k0s install</td><td><a href="https://get.k3s.io/" target="_blank" rel="noopener noreferrer">https://get.k3s.io</a> 会安装 systemd, openrc 服务</td></tr><tr><td>k0s reset</td><td>n/a</td></tr><tr><td>k0s kubeconfig create</td><td>n/a</td></tr><tr><td>k0sctl</td><td>n/a</td></tr><tr><td>k0sctl apply</td><td>~autok3s</td></tr><tr><td>k0sctl backup</td><td>n/a</td></tr><tr><td>---</td><td>---</td></tr><tr><td>k0s kubectl</td><td>k3s kubectl</td></tr><tr><td>k0s ctr</td><td>k3s ctr</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="如何选择">如何选择<a href="https://wener.me/story/k3s-vs-k0s#%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9" class="hash-link" aria-label="Direct link to 如何选择" title="Direct link to 如何选择">​</a></h2>
-<p><strong>相同点</strong></p>
-<ul>
-<li>面向相同用户群体和使用场景，非常类似</li>
-<li>核心都使用 kine - 区别不大</li>
-<li>都有大的企业支撑开发</li>
-</ul>
-<p><strong>选择考量</strong></p>
-<ul>
-<li>k3s
-<ul>
-<li>更成熟 - 存在时间更长，使用的更独立</li>
-<li>社区更大 - 社区还与 rancher、rke 有交集</li>
-<li>中文化社区友好</li>
-<li>单节点默认 SQLite</li>
-</ul>
-</li>
-<li>k0s
-<ul>
-<li>更新 - 2020 年 - 目前已经成熟，可以用于生产</li>
-<li>用户体验更好</li>
-<li><strong>k0sctl</strong>
-<ul>
-<li>能更好的辅助维护更多的集群，减少对 脚本/ansible 的依赖。</li>
-<li>更好升级</li>
-<li>更好备份</li>
-</ul>
-</li>
-<li>单节点默认 etcd/kine</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="为什选择-k0s">为什选择 K0S<a href="https://wener.me/story/k3s-vs-k0s#%E4%B8%BA%E4%BB%80%E9%80%89%E6%8B%A9-k0s" class="hash-link" aria-label="Direct link to 为什选择 K0S" title="Direct link to 为什选择 K0S">​</a></h2>
-<ul>
-<li>k0s 作为 supervisor 运行 - 🌟
-<ul>
-<li>每个进程独立 - etcd, k0s-api, kube-apiserver
-<ul>
-<li>方便调试，排查问题 - 能清楚知道哪个进程启动了没启动</li>
-<li>能看到所有实际运行参数</li>
-<li>可以单独 kill 进程 - 例如: 修改了 containerd 镜像配置，只能通过 kill 来使新的配置生效
-<ul>
-<li>不需要启停全部服务</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>代码部署运行逻辑清晰 - 如果需要更深入了解</li>
-</ul>
-</li>
-<li><del>k0s bundled 了更多依赖 - ⭐️ - containerd, iptables</del> - 目前 k3s 和 k0s 这一块区别不大
-<ul>
-<li>几乎对系统没什么额外依赖</li>
-</ul>
-</li>
-<li>k0sctl 辅助部署
-<ul>
-<li>如果需要可自行进行定制化</li>
-<li>替代部分 ansible 工作</li>
-</ul>
-</li>
-<li>默认 control plane 和 worker 分离
-<ul>
-<li>⚠️ 部署有一些注意事项</li>
-</ul>
-</li>
-<li>使用 konnectivity - 相对更 kubernetes
-<ul>
-<li>改动更小</li>
-</ul>
-</li>
-</ul>
-<div class="theme-admonition theme-admonition-caution admonition_Y08F alert alert--warning"><div class="admonitionHeading_t1cr"><span class="admonitionIcon_hfau"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent__HUn"><ul>
-<li>默认用到了 k8s.gcr.io 镜像 - 国内环境部署需要注意，建议用 airgap 包导入基础镜像。</li>
-<li>k0sctl 功能还比较欠缺 @2022</li>
-</ul></div></div>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="为什选择-k3s">为什选择 K3S<a href="https://wener.me/story/k3s-vs-k0s#%E4%B8%BA%E4%BB%80%E9%80%89%E6%8B%A9-k3s" class="hash-link" aria-label="Direct link to 为什选择 K3S" title="Direct link to 为什选择 K3S">​</a></h2>
-<ul>
-<li>更加成熟</li>
-<li>更新更频繁 - 更贴近上游</li>
-<li><del>易于迁移备份 - e.g. sqlite -&gt; etcd， k3s snapshot</del></li>
-<li>社区更大</li>
-<li>对中国环境友好 - 背靠 rancher
-<ul>
-<li>k0s 默认 k8s.gcr.io 镜像 - 国内环境部署需要注意，建议用 airgap 包导入基础镜像。</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="关于-provisioning">关于 Provisioning<a href="https://wener.me/story/k3s-vs-k0s#%E5%85%B3%E4%BA%8E-provisioning" class="hash-link" aria-label="Direct link to 关于 Provisioning" title="Direct link to 关于 Provisioning">​</a></h2>
-<p>虽然有 autok3s 和 k0sctl，一般重复部署时候还是建议自行脚本部署，但初次尝试使用这种自动化工具问题不大。</p>
-<p>建议自行部署的主要原因：</p>
-<ol>
-<li>工具可能会更新迭代 - 工具会变</li>
-<li>特殊需求 - e.g. 需要自定义配置，pod 数量，网络参数</li>
-<li>特殊环境 - e.g. musl, arm, alpinelinux</li>
-<li>更好管控细节</li>
-</ol>
-<p>当需要在多个环境中进行重复部署时，自行编写的自动化脚本比使用官方的自动化工具更加可靠。</p>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="关于-docker">关于 Docker<a href="https://wener.me/story/k3s-vs-k0s#%E5%85%B3%E4%BA%8E-docker" class="hash-link" aria-label="Direct link to 关于 Docker" title="Direct link to 关于 Docker">​</a></h2>
-<p>不建议使用 Docker 作为容器运行时，建议使用 containerd。</p>
-<ol>
-<li>默认配置，不需要任何配置</li>
-<li>避免污染 docker</li>
-<li>现在都 bundle 了 containerd，更能匹配 k8s 要求的版本</li>
-</ol>
-<p>推荐 Docker 用于前期 bootstrap 或者作为 host sock 给容器内用。</p>
-<ol>
-<li>通过 docker 启动 dns 相关的服务</li>
-</ol>
-<ul>
-<li>dns 服务过于底层，不应该在 k8s 内部运行，会导致启动很慢</li>
-<li>用于实现重新映射 domain -&gt; ip</li>
-<li>例如: adguard, dnsmasq</li>
-<li>例如: 映射 docker.io 为 内网 IP</li>
-</ul>
-<ol start="2">
-<li>通过 docker 启动 registry 缓存镜像 - 配置为 mirror 可加速或者实现 airgap</li>
-<li>如果不想在 k8s 内 dind 可以映射 host docker.sock</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="组件简介">组件简介<a href="https://wener.me/story/k3s-vs-k0s#%E7%BB%84%E4%BB%B6%E7%AE%80%E4%BB%8B" class="hash-link" aria-label="Direct link to 组件简介" title="Direct link to 组件简介">​</a></h2>
-<ul>
-<li><a href="https://wener.me/notes/devops/kubernetes/distro/kine" target="_blank" rel="noopener noreferrer">kine</a>
-k3s 和 k0s 最核心组件
-<ul>
-<li>提供 etcd 能力</li>
-<li>后端支持 etcd,sqlite,mysql,postgresql,dqlite</li>
-</ul>
-</li>
-<li><a href="https://wener.me/notes/devops/kubernetes/network/traefik-ingress" target="_blank" rel="noopener noreferrer">traefik</a>
-<ul>
-<li>提供 Ingress 能力</li>
-</ul>
-</li>
-<li><a href="https://github.com/k3s-io/helm-controller" target="_blank" rel="noopener noreferrer">k3s-io/helm-controller</a>
-<ul>
-<li>支持部署 helm chart</li>
-<li>通过 CDR 控制</li>
-</ul>
-</li>
-<li>CNI - 容器网络
-<ul>
-<li><a href="https://wener.me/notes/devops/kubernetes/network/flannel/" target="_blank" rel="noopener noreferrer">flannel</a></li>
-<li><a href="https://wener.me/notes/devops/kubernetes/network/calico/" target="_blank" rel="noopener noreferrer">calico</a></li>
-<li><a href="https://wener.me/notes/devops/kubernetes/network/kube-router/" target="_blank" rel="noopener noreferrer">kube-router</a></li>
-</ul>
-</li>
-<li>CSI - 容器存储
-<ul>
-<li><a href="https://wener.me/notes/devops/kubernetes/storage/local-path-provisioner/" target="_blank" rel="noopener noreferrer">local-path-provisioner</a>
-<ul>
-<li>基于本地路径提供 volume</li>
-</ul>
-</li>
-<li><a href="https://wener.me/notes/devops/kubernetes/storage/openebs/" target="_blank" rel="noopener noreferrer">openebs</a></li>
-</ul>
-</li>
-<li>LoadBalancer
-<ul>
-<li><a href="https://github.com/k3s-io/klipper-lb" target="_blank" rel="noopener noreferrer">k3s-io/klipper-lb</a>
-<ul>
-<li>基于 iptable 提供 ClusterIP 能力</li>
-</ul>
-</li>
-<li><a href="https://wener.me/notes/devops/kubernetes/network/metallb/" target="_blank" rel="noopener noreferrer">metallb</a></li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="参考">参考<a href="https://wener.me/story/k3s-vs-k0s#%E5%8F%82%E8%80%83" class="hash-link" aria-label="Direct link to 参考" title="Direct link to 参考">​</a></h2>
-<ul>
-<li><a href="https://landscape.cncf.io/card-mode?category=certified-kubernetes-installer&amp;grouping=category" target="_blank" rel="noopener noreferrer">certified-kubernetes-installer</a></li>
-</ul>
-<h1>为什么会存在不同发行版</h1>
-<p>K8S 作为最原始的项目，派生出来很多 分支/发布版。</p>
-<p>Kubernetes 的核心能力为资源调度，主要资源为 Pod/容器组/计算资源。
-因为是分布式多节点，所以对网络有要求。Pod 调度主要提供计算能力，实际使用还会需要存储能力。
-也就是说 Kubernetes 涉及到核心的三元素</p>
-<ul>
-<li>计算</li>
-<li>网络</li>
-<li>存储</li>
-</ul>
-<p>Kubernetes 核心调度计算资源，但对于网络和存储是 无意见/Unopinioned ，但实际部署使用时这时候又不可避免的要面对这些问题。
-因此不同的 发布版/Distribution 就是对这些问题不同的看法。</p>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="k8s-要求">K8S 要求<a href="https://wener.me/story/k3s-vs-k0s#k8s-%E8%A6%81%E6%B1%82" class="hash-link" aria-label="Direct link to K8S 要求" title="Direct link to K8S 要求">​</a></h2>
-<p>Kubernetes 由 Google 开发，但不是所有人都有那么大规模的问题，而大多数时候都是小规模，先让 K8S “跑起来”。</p>
-<p>Kubernetes 自身因为对基础设施层 无意见/Unopinioned，因此默认是没有部署工具，只有要求：</p>
-<ul>
-<li>要求节点运行在平坦网络</li>
-<li>要求 etcd 能力的状态存储</li>
-<li>要求 cloud-controller 提供节点信息</li>
-<li>要求 容器运行时</li>
-</ul>
-<p>在这些基础之上，Kubernetes 提供基于状态的 接口 进行资源调度。</p>
-<h2 class="anchor anchorWithStickyNavbar_gXJ2" id="k8s-部署">K8S 部署<a href="https://wener.me/story/k3s-vs-k0s#k8s-%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to K8S 部署" title="Direct link to K8S 部署">​</a></h2>
-<p>除了满足 K8S 的要求，在实际使用时还希望能方便快捷的管理部署。
-K8S 提供了 kubeadm 进行安装，不同的发布版也需要提供类似的工具，但工具区分为两部分</p>
-<ol>
-<li>远程开通部署
-<ul>
-<li>SSH</li>
-<li>控制节点通过工具部署到多个节点</li>
-</ul>
-</li>
-<li>开通部署的提前准备
-<ul>
-<li>CA 证书</li>
-<li>ETCD/存储初始化</li>
-<li>网络设置</li>
-<li>Bootstrap</li>
-</ul>
-</li>
-</ol>
-<p>kubeadm 和 k0s, k3s 都属于第二种场景，第一种场景的工具例如</p>
-<ul>
-<li>autok3s</li>
-<li>rke</li>
-<li>ansible</li>
-<li>k0sctl</li>
-</ul>]]></content>
-        <category label="Kubernetes" term="Kubernetes"/>
         <category label="DevOps" term="DevOps"/>
     </entry>
 </feed>
