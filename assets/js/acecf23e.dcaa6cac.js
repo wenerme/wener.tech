@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([["27627"],{47548:function(e){e.exports=JSON.parse('{"blogBasePath":"/story","blogTitle":"Blog","authorsListPath":"/story/authors"}')}}]);
