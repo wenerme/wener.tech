@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwener_website=self.webpackChunkwener_website||[]).push([["35442"],{70377:function(e,s,r){r.d(s,{createTreemapServices:()=>c.d});var c=r(12021);r(5716)}}]);
