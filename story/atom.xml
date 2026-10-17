@@ -2,11 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wener.me/story</id>
     <title>Wener Live &amp; Life Blog</title>
-    <updated>2025-10-01T00:00:00.000Z</updated>
+    <updated>2026-10-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wener.me/story"/>
     <subtitle>Wener Live &amp; Life Blog</subtitle>
     <icon>https://wener.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[怎么信任 Agent]]></title>
+        <id>https://wener.me/story/how-to-trust-agent</id>
+        <link href="https://wener.me/story/how-to-trust-agent"/>
+        <updated>2026-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今年（2026 年）才只是以 Claude Code 为标志的 Coding Agent 第二年（Claude Code 发布于 2025 年 2 月 24 日），但是现在依然还没有特别多的人大量使用 Agent。]]></summary>
+        <content type="html"><![CDATA[<p>今年（2026 年）才只是以 Claude Code 为标志的 Coding Agent 第二年（Claude Code 发布于 2025 年 2 月 24 日），但是现在依然还没有特别多的人大量使用 Agent。
+Coding Agent 已经从只负责 Coding 转向泛用 Agent 了，因为 Code 本身就是 Agent 与世界交互的主要方式。</p>
+<p>发生明显变化的过程是</p>
+<ul>
+<li>生成文本 -&gt; 简单的补全、替换</li>
+<li>Tool call -&gt; Agent 只能输出固定工具调用</li>
+<li>MCP -&gt; 通过一定的协议来提供大量 Tool, 不管是不是用得上</li>
+<li>Code mode / DSL / Shell is all you need / Dynamic workflow -&gt; 让 Agent 能以代码的方式来编排和操作一切，Agent 会逐步的去发现他环境的能力和它的世界做交互。</li>
+</ul>
+<p>一路走过来，Agent 做的事情越来越多，人做的事情越来越少。但是对使用 Agent 尚且不足的人来说，门槛却变得越来越大了，AI Agent 未来会（或者说已经）变成接近手机、搜索引擎这种基础设施一样的存在。
+我认为很难的一点是建立信任。</p>
+<p>Agent 领域现在一个非常热门的话题是 Harness（挽具 / 缰绳），目的就是为了驾驭 Agent。</p>
+<p>过去一年模型迭代极快，最近开始放缓，模型对于所有人来说都是平等的存在，那么每个人的不同点就在于对 Agent 不同的理解，你的 Agent 区别于别人，你使用 Agent 的效率和结果不同于别人，那么多半是 skill issue 了。</p>
+<p>模型迭代，每次都会带来个人 Harness 的部分调整，那么选择投入个人时间精力的时候，强烈建议选择自己完全掌控的方式，以下是我个人掌控 Agent 的方式。</p>
+<h2 class="anchor anchorWithStickyNavbar_EG6R" id="不变的是沉淀">不变的是沉淀<a href="https://wener.me/story/how-to-trust-agent#%E4%B8%8D%E5%8F%98%E7%9A%84%E6%98%AF%E6%B2%89%E6%B7%80" class="hash-link" aria-label="Direct link to 不变的是沉淀" title="Direct link to 不变的是沉淀" translate="no">​</a></h2>
+<blockquote>
+<p>下一次模型升级后，什么仍然属于你？</p>
+</blockquote>
+<p>这是我认为在这个过程中比较有价值的问题，不过最近这个问题的价值在逐渐缩减了，因为模型已经内化了大部分你知道的好的 Prompt 实践经验了，但这个问题依然重要，它决定了你做哪些事才有价值。</p>
+<ul>
+<li>会变化的东西
+<ul>
+<li>模型、产品、Prompt 技巧</li>
+<li>昨天需要手工写出的步骤，明天可能成为模型的默认能力。</li>
+</ul>
+</li>
+<li>应该留下的东西
+<ul>
+<li>上下文、判断、过程与证据</li>
+<li>它们不会因为模型变强就自动进入下一个模型。</li>
+</ul>
+</li>
+</ul>
+<p>问题不是“哪个 Agent 最强”，而是“哪些资产能跨越 Agent 的更替”。</p>
+<p>所以，我会围绕留存价值来组织我的信息结构。</p>
+<blockquote>
+<p>Harness 有半衰期，Context 会复利</p>
+</blockquote>
+<p>时常我们都会追新，尝试切换使用的工具，例如 Codex 出来的时候，从 CC 迁移到 Codex，DSH 出的时候又迁移到 DSH，结果又发现 Hermes 也不错。</p>
+<p>Harness 时常会变，今天可能发现了这个插件好用，明天又听说了另一个，来回的变化切换是很正常的行为，甚至 Harness 本身也是在快速迭代增加新的功能和做出内部架构的变化。</p>
+<p>但本地组织好的上下文、结构与信息，无论工具怎么切换，它们都不会失效。理论上，切换 Agent 带来的体验变化更多取决于产品品味；但能否完成任务、达成目标，核心取决于本地信息上下文的组织。</p>
+<p>在本地上下文中，我们也需要随着模型升级迭代来优化本地的信息内容。</p>
+<h2 class="anchor anchorWithStickyNavbar_EG6R" id="沉淀的是价值">沉淀的是价值<a href="https://wener.me/story/how-to-trust-agent#%E6%B2%89%E6%B7%80%E7%9A%84%E6%98%AF%E4%BB%B7%E5%80%BC" class="hash-link" aria-label="Direct link to 沉淀的是价值" title="Direct link to 沉淀的是价值" translate="no">​</a></h2>
+<blockquote>
+<p>信息越多，不等于掌控越多</p>
+</blockquote>
+<p>在早期的时候，模型对指令的遵从，对常见使用模式的理解远远不如现在，但是现在模型已经是另外一个 Level 了，你需要相信它能完成预期的任务，建立这样信任需要很多的前提</p>
+<blockquote>
+<p>Confidence comes from inspectability, not familiarity.</p>
+</blockquote>
+<ul>
+<li>应该能回答
+<ul>
+<li>它基于哪些文件、命令和结果？</li>
+<li>哪些内容是事实，哪些是推断？</li>
+<li>哪些关键上下文可能缺失？</li>
+</ul>
+</li>
+</ul>
+<p>信任来自于对过程的肯定，来自于多次的沟通尝试，来自于历史的任务完成，更来自于我对过程的可审查。</p>
+<blockquote>
+<p>不要只留下答案，要留下想法如何变成答案的路径。</p>
+</blockquote>
+<p>因此，我本地组织的结构会尽量保留过程内容，某种程度上相当于是对它思维过程的“蒸馏”或概括。你可以选择不看，但是不能没有，因为下一次是否成功很可能依赖这一次过程：它可以犯错，但不能重复犯错；做成过的事，有记录就能再次做成。</p>
+<blockquote>
+<p>好的静态规则，来自很多次动态判断。</p>
+</blockquote>
+<p>这个过程好似一个漏斗，人类（或者 Agent）都是能做到吃一堑长一智的，通常规则也都会包含“启发式”的规则补充，且过程留存也应该是能辅助于提供和完善更多的规则，当这样的基础规则能循环起来后，逐步的优化迭代其实现在的 Agent 已然能够自行完成。</p>
+<h2 class="anchor anchorWithStickyNavbar_EG6R" id="价值产生信任">价值产生信任<a href="https://wener.me/story/how-to-trust-agent#%E4%BB%B7%E5%80%BC%E4%BA%A7%E7%94%9F%E4%BF%A1%E4%BB%BB" class="hash-link" aria-label="Direct link to 价值产生信任" title="Direct link to 价值产生信任" translate="no">​</a></h2>
+<p>当你和 Agent 沟通次数越来越多了以后，你会发现它能越来越贴合你的想法和预期。在这样的正向反馈循环下，才能对 Agent 产生足够的信任，理解它的边界和能力，然后在每次升级后，再次认识它，扩展新的能力和边界，长此以往才能做到驾驭 Agent。</p>
+<h1>参考</h1>
+<ul>
+<li>我的个人实践 <a href="https://wener.me/notes/dev/vibe-coding" target="_blank" rel="noopener noreferrer">https://wener.me/notes/dev/vibe-coding</a></li>
+</ul>]]></content>
+        <category label="Thoughts" term="Thoughts"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[工具 - 工 与 具]]></title>
         <id>https://wener.me/story/function-and-interface</id>
@@ -589,7 +671,7 @@
 <li>直接映射单个域名</li>
 <li>注意： CNAME 的域名也需要映射</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="为��什么用-1723211">为什么用 172.32.1.1<a href="https://wener.me/story/sni-proxy#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8-1723211" class="hash-link" aria-label="Direct link to 为什么用 172.32.1.1" title="Direct link to 为什么用 172.32.1.1" translate="no">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_EG6R" id="为什么用-1723211">为什么用 172.32.1.1<a href="https://wener.me/story/sni-proxy#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8-1723211" class="hash-link" aria-label="Direct link to 为什么用 172.32.1.1" title="Direct link to 为什么用 172.32.1.1" translate="no">​</a></h2>
 <ul>
 <li>172.32.1.1 为公网 IP 地址，但这个地址被使用的概率非常低</li>
 <li>如果不给代理节点一个公网地址而是使用内网地址，那么 iOS 访问网络时会提示 “是否允许应用访问本地网络”。</li>
@@ -2202,155 +2284,5 @@ chart={<code>graph TD     charts.wener.tech -- CNAME --&gt; fb.wener.me     fb.w
 <p>此外使用 U 盘 做系统盘的时候，一定注意修改 docker 之类的数据目录为其他存储，因为跑实际应用的时候 U 盘 性能是不足的，且数据库类型应用的小 BlockSize IO 不适合 U 盘。</p>]]></content>
         <category label="AlpineLinux" term="AlpineLinux"/>
         <category label="运维" term="运维"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PostgreSQL ORDER BY+LIMIT 时的索引选择]]></title>
-        <id>https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit</id>
-        <link href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit"/>
-        <updated>2021-10-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[当使用 ORDER BY+LIMIT 时 PostgreSQL 可能会选择更差的执行方式，数据量大时，执行效率相差成百上千倍。]]></summary>
-        <content type="html"><![CDATA[<p>当使用 ORDER BY+LIMIT 时 PostgreSQL 可能会选择更差的执行方式，数据量大时，执行效率相差成百上千倍。</p>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="索引选择问题">索引选择问题<a href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit#%E7%B4%A2%E5%BC%95%E9%80%89%E6%8B%A9%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 索引选择问题" title="Direct link to 索引选择问题" translate="no">​</a></h2>
-<p>假设结构如下</p>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">create</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">table</span><span class="token plain"> organizations</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  id bigserial </span><span class="token keyword" style="font-style:italic">primary</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">key</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  jgmc </span><span class="token keyword" style="font-style:italic">text</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  clrq </span><span class="token keyword" style="font-style:italic">date</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">create</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">index</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">if</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">exists</span><span class="token plain"> idx_organizations_clrq </span><span class="token keyword" style="font-style:italic">on</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">create</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">index</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">if</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">exists</span><span class="token plain"> idx_organizations_jgmc_fts </span><span class="token keyword" style="font-style:italic">on</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations </span><span class="token keyword" style="font-style:italic">using</span><span class="token plain"> pgroonga </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<p>查询通常基于 clrq 排序，但会 搜索 jgmc。</p>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">explain</span><span class="token plain"> analyse verbose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">select</span><span class="token plain"> jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">from</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">where</span><span class="token plain"> jgmc </span><span class="token operator" style="color:rgb(137, 221, 255)">&amp;</span><span class="token plain">@</span><span class="token operator" style="color:rgb(137, 221, 255)">~</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'百度'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> clrq </span><span class="token operator" style="color:rgb(137, 221, 255)">is</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token boolean" style="color:rgb(255, 88, 116)">null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">order</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">by</span><span class="token plain"> clrq </span><span class="token keyword" style="font-style:italic">desc</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">limit</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">30</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">offset</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<div class="theme-admonition theme-admonition-tip admonition_phik alert alert--success"><div class="admonitionHeading_zxjO"><span class="admonitionIcon_bSNx"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>使用了 clrq is not null 而非 nulls last</div><div class="admonitionContent_R6P7"><p>因为索引默认隐含 nulls last，也就是说 <code>order by clrq asc</code> 隐含 <code>order by clrq asc nulls last</code>。
-当使用 <code>order by clrq desc nulls last</code> 时不会选择 <code>idx_organizations_clrq</code> 索引，因为 nulls 顺序不匹配。
-因此使用 <code>is not null</code> 排除。</p></div></div>
-<p>给出的执行计划和结果如下</p>
-<div class="language-text codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-text codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Limit  (cost=0.43..33132.51 rows=30 width=1284) (actual time=4678.918..13104.109 rows=6 loops=1)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">"  Output: jgmc, clrq, id"</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -&gt;  Index Scan Backward using idx_organizations_clrq on ic.organizations  (cost=0.43..4069724.46 rows=3685 width=1284) (actual time=4678.916..13104.101 rows=6 loops=1)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">"        Output: jgmc, clrq, id"</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        Index Cond: (organizations.clrq IS NOT NULL)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        Filter: (organizations.jgmc &amp;@~ '百度'::text)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        Rows Removed by Filter: 3685166</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Planning Time: 0.826 ms</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Execution Time: 13104.226 ms</span><br></span></code></pre></div></div>
-<p>实际执行了 13s，选择了 idx_organizations_clrq 索引。</p>
-<p>但如果去掉 LIMIT：</p>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">explain</span><span class="token plain"> analyse verbose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">select</span><span class="token plain"> jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">from</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">where</span><span class="token plain"> jgmc </span><span class="token operator" style="color:rgb(137, 221, 255)">&amp;</span><span class="token plain">@</span><span class="token operator" style="color:rgb(137, 221, 255)">~</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'百度'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> clrq </span><span class="token operator" style="color:rgb(137, 221, 255)">is</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token boolean" style="color:rgb(255, 88, 116)">null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">order</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">by</span><span class="token plain"> clrq </span><span class="token keyword" style="font-style:italic">desc</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">-- limit 30 offset 0</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<p>给出的计划如下</p>
-<div class="language-text codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-text codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Sort  (cost=40479.53..40488.74 rows=3685 width=1284) (actual time=19.771..19.774 rows=6 loops=1)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">"  Output: jgmc, clrq, id"</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  Sort Key: organizations.clrq DESC</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  Sort Method: quicksort  Memory: 36kB</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -&gt;  Index Scan using idx_organizations_jgmc_fts on ic.organizations  (cost=0.00..40261.24 rows=3685 width=1284) (actual time=19.716..19.737 rows=6 loops=1)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">"        Output: jgmc, clrq, id"</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        Index Cond: (organizations.jgmc &amp;@~ '百度'::text)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        Filter: (organizations.clrq IS NOT NULL)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Planning Time: 0.706 ms</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Execution Time: 21.824 ms</span><br></span></code></pre></div></div>
-<p>实际执行只需要 21ms，选择了 idx_organizations_jgmc_fts 索引。</p>
-<p>PostgreSQL 在这样的场景下选择了错误的索引，导致查询时间相差 600 倍。</p>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="索引选择原因">索引选择原因<a href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit#%E7%B4%A2%E5%BC%95%E9%80%89%E6%8B%A9%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 索引选择原因" title="Direct link to 索引选择原因" translate="no">​</a></h2>
-<p>ORDER BY+LIMIT 让查询有 <strong>提前结束的可能</strong>。</p>
-<p>例如 实际数据 10k,但 limit 10, 只需使用索引扫描 10 条数据便可以停止执行，而不需要先判断 其他 条件。</p>
-<p>因此 PostgreSQL 的 optimizer 有让这种选择优先的逻辑 <a href="https://github.com/postgres/postgres/blob/REL_13_STABLE/src/backend/optimizer/util/pathnode.c#L3633-L3753" target="_blank" rel="noopener noreferrer">pathnode.c#L3633-L3753</a>。</p>
-<ul>
-<li>create_limit_path 针对 LIMIT/OFFSET 创建执行计划
-<ul>
-<li>adjust_limit_rows_costs 调整此时的 rows costs</li>
-</ul>
-</li>
-</ul>
-<div class="language-c codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockTitle_Lwh4">adjust_limit_rows_costs</div><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-c codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token operator" style="color:rgb(137, 221, 255)">*</span><span class="token plain">total_cost </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">*</span><span class="token plain">startup_cost </span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">input_total_cost </span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token plain"> input_startup_cost</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">*</span><span class="token plain"> count_rows </span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain"> input_rows</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th style="text-align:right">var</th><th>meaning</th></tr></thead><tbody><tr><td style="text-align:right">total_cost</td><td>总 cost</td></tr><tr><td style="text-align:right">startup_cost</td><td>初始 cost</td></tr><tr><td style="text-align:right">input_total_cost</td><td>输入总 cost</td></tr><tr><td style="text-align:right">input_startup_cost</td><td>输入初始总 cost</td></tr><tr><td style="text-align:right">count_rows</td><td>limit</td></tr><tr><td style="text-align:right">input_rows</td><td>输入 行</td></tr></tbody></table>
-<p>在这个调整逻辑里会将现在的过程 cost <code>input_total_cost - input_startup_cost</code> 乘以 系数 <code>count_rows / input_rows</code>。
-这个系数便会使得 ORDER BY+LIMIT 时优先选择索引。</p>
-<p>因为两个计划的 rows 相同，优先了 排序索引则会选择排序索引方案。</p>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="解决问题">解决问题<a href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit#%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98" class="hash-link" aria-label="Direct link to 解决问题" title="Direct link to 解决问题" translate="no">​</a></h2>
-<div class="theme-admonition theme-admonition-tip admonition_phik alert alert--success"><div class="admonitionHeading_zxjO"><span class="admonitionIcon_bSNx"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>目标</div><div class="admonitionContent_R6P7"><p>避免选择排序索引</p></div></div>
-<ol>
-<li>使用 noop function 避免索引</li>
-</ol>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">explain</span><span class="token plain"> verbose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">select</span><span class="token plain"> clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">from</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">where</span><span class="token plain"> jgmc </span><span class="token operator" style="color:rgb(137, 221, 255)">&amp;</span><span class="token plain">@</span><span class="token operator" style="color:rgb(137, 221, 255)">~</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'百度'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> clrq </span><span class="token operator" style="color:rgb(137, 221, 255)">is</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token boolean" style="color:rgb(255, 88, 116)">null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">order</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">by</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">coalesce</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">desc</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">limit</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">30</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">offset</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<ol start="2">
-<li>使用 expression 避免索引</li>
-</ol>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">explain</span><span class="token plain"> verbose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">select</span><span class="token plain"> clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">from</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">where</span><span class="token plain"> jgmc </span><span class="token operator" style="color:rgb(137, 221, 255)">&amp;</span><span class="token plain">@</span><span class="token operator" style="color:rgb(137, 221, 255)">~</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'百度'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> clrq </span><span class="token operator" style="color:rgb(137, 221, 255)">is</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token boolean" style="color:rgb(255, 88, 116)">null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">order</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">by</span><span class="token plain"> clrq</span><span class="token operator" style="color:rgb(137, 221, 255)">+</span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">desc</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">limit</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">30</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">offset</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<ol start="3">
-<li>添加 nulls 顺序避免索引</li>
-</ol>
-<ul>
-<li>因为 index 默认 asc nulls last 因此 asc 和 desc 选择不同 nulls 顺序</li>
-<li>where is not null</li>
-<li>desc nulls last</li>
-<li>asc nulls first</li>
-</ul>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">explain</span><span class="token plain"> verbose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">select</span><span class="token plain"> clrq</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> jgmc</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">from</span><span class="token plain"> ic</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">organizations</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">where</span><span class="token plain"> jgmc </span><span class="token operator" style="color:rgb(137, 221, 255)">&amp;</span><span class="token plain">@</span><span class="token operator" style="color:rgb(137, 221, 255)">~</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'百度'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> clrq </span><span class="token operator" style="color:rgb(137, 221, 255)">is</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">not</span><span class="token plain"> </span><span class="token boolean" style="color:rgb(255, 88, 116)">null</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">order</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">by</span><span class="token plain"> clrq </span><span class="token keyword" style="font-style:italic">desc</span><span class="token plain"> nulls </span><span class="token keyword" style="font-style:italic">last</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">limit</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">30</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">offset</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-<ol start="4">
-<li>调整 STATISTICS</li>
-</ol>
-<ul>
-<li>在两者统计 rows 不同的情况下 - 这里不适用</li>
-<li>SET STATISTICS</li>
-<li>CREATE STATISTICS</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="statistics-场景">STATISTICS 场景<a href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit#statistics-%E5%9C%BA%E6%99%AF" class="hash-link" aria-label="Direct link to STATISTICS 场景" title="Direct link to STATISTICS 场景" translate="no">​</a></h2>
-<p>STATISTICS 影响 n_distinct，n_distinct 影响 inputs_rows，多个计划相同，可增加 STATISTICS 避免错误选择索引。</p>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">SELECT</span><span class="token plain"> attname</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">       n_distinct</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">       null_frac</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">FROM</span><span class="token plain"> pg_stats</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">WHERE</span><span class="token plain"> tablename </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'organizations'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token operator" style="color:rgb(137, 221, 255)">and</span><span class="token plain"> attname </span><span class="token operator" style="color:rgb(137, 221, 255)">in</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token string" style="color:rgb(195, 232, 141)">'clrq'</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'jgmc'</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th style="text-align:left">attname</th><th style="text-align:left">n_distinct</th><th style="text-align:left">null_frac</th></tr></thead><tbody><tr><td style="text-align:left">clrq</td><td style="text-align:left">7914</td><td style="text-align:left">0.00030666665</td></tr><tr><td style="text-align:left">jgmc</td><td style="text-align:left">-0.99441195</td><td style="text-align:left">0.0030133333</td></tr></tbody></table>
-<div class="language-sql codeBlockContainer_ljD1 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_rhaG"><pre tabindex="0" class="prism-code language-sql codeBlock_mx9Q thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_NG8l"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">SELECT</span><span class="token plain"> relname</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> reltuples</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> relpages</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">FROM</span><span class="token plain"> pg_class</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">WHERE</span><span class="token plain"> relname </span><span class="token operator" style="color:rgb(137, 221, 255)">LIKE</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'organizations'</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre></div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th style="text-align:left">relname</th><th style="text-align:left">reltuples</th><th style="text-align:left">relpages</th></tr></thead><tbody><tr><td style="text-align:left">organizations</td><td style="text-align:left">3686376</td><td style="text-align:left">1116103</td></tr></tbody></table>
-<h2 class="anchor anchorWithStickyNavbar_EG6R" id="参考">参考<a href="https://wener.me/story/postgresql-use-wrong-index-with-order-and-limit#%E5%8F%82%E8%80%83" class="hash-link" aria-label="Direct link to 参考" title="Direct link to 参考" translate="no">​</a></h2>
-<ul>
-<li><a href="https://gocardless.com/blog/debugging-the-postgres-query-planner/" target="_blank" rel="noopener noreferrer">https://gocardless.com/blog/debugging-the-postgres-query-planner/</a></li>
-<li><a href="https://dba.stackexchange.com/a/258986/234272" target="_blank" rel="noopener noreferrer">https://dba.stackexchange.com/a/258986/234272</a></li>
-</ul>]]></content>
-        <category label="PostgreSQL" term="PostgreSQL"/>
-        <category label="DevOps" term="DevOps"/>
     </entry>
 </feed>
